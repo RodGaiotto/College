@@ -1,0 +1,97 @@
+Digital data over analog copper phone lines - 30 kbps maximun.
+
+
+LAYER 1 - Camada Física
+
+Listagem de tecnologias mais antigas para mais recentes.
+
+1- Analog Telephone lines
+
+2- Digital Telephone lines
+	- T1 ou DS1 Dedicate Connection, 1.54 Mbps Multiplex por 24 Timeslots de 64 Kbps cada que podem ser usados para voz ou dados.
+	Frame é um pacote que pode ser enviado de uma única vez = (24 timeslots x 8 bits each) + 1 bit de endereçamento = 193 bits
+	193 bits x 8.000 time/second = 1.54 Mbps
+
+	- T3 ou DS3 Dedicate Connection, 44.74 Mbps Multiplex por 672 Timeslots de 64 Kbps cada
+	- E1 Dedicate Connection, 2.04 Mbps Multiplex por 32 Timeslots de 64 Kbps cada
+	- E3 Dedicate Connection, 34.37 Mbps Multiplex por 512 Timeslots de 64 Kbps cada
+
+3- Fiber-optic connections
+	- SONET possuem 3 canais de 51.84 Mbps Multiplex, cada canal é chamado STS-1, 3 canais STS-3 
+	- SDH
+
+
+
+4- OTN - Optical Transport Network, especificamente para linhas de fibra optica.
+	Baseada em Wavelength division multiplexing (WDM), que quer dizer na pratica que a comunicação não precisa ser feita através de pacotes de dados (frames) como nas tecnologias anterios, mas enviando dados por faixas simultaneas (multiplexing) fazendo uso da grande capacidade de largura de banda das fibras opticas. OTN pode fazer uso de até 80 faixas simultaneas.
+
+
+LAYER 2 - Camada de Data Link
+
+Listagem de tecnologias mais antigas para mais recentes.
+
+1- PPP - Pode transportar trafego de IPs como outros protolocos da CAMADA 3. Opera entre o ROUTER no limite da rede do cliente, através da rede da operadora de serviço, até o ROUTER fronteira entre a rede WAN operadora de serviço e o destino. (ROUTER configurado para PPP -> WAN -> ROUTER configurado para PPP)
+
+Um PPP frame = Flag, Address, Control, Protocol, Source IP Address, Destination IP Address, IP Protocol Number, DADO, FCS e Flag.
+
+O protocolo PPP necessita que dois dispositivos estabeleçam uma conexão formal para assegurar que os dois NÓS (fonte e destino) estão prontos para comunicar, normalmente isso é chamado "handshake".
+
+Passo 1: Link Control Protocol (LCP)
+Passo 2: Autenticação para validar credenciais (em conexões Dial-Up ou DSL apenas. Em ponto a ponto, autenticação não é requerida).
+Passo 3: Configuração dos protocolos da camada 3 usando Network Control Protocols (NCP). Neste processo o IP Control Protocol IPCP, controla a utilização do protocolo IP da camada 3.
+
+Em conexões Dial-Up antigas por exemplo, era através de PPP que o host local ganhava um endereço IP para navegar na internet.
+
+2- Frame Relay
+
+Frame Relay também provê um link dedicado, porém, não necessita de um circuito dedicado entre fonte e destino como PPP, ao invés disso, ele utiliza CIRCUITOS ou CONEXÕES VIRTUAIS que permitem que diversos clientes façam uso da mesma infraestutura pois a mesma passa a não ser inteiramente dedicada.
+
+SITE A -> virtual circuit -> PRESTADORA DE SERVIÇO -> virtual circuit -> SITE B destino
+
+Pelo fato de diferentes clientes poderem usar a mesma infraestrutura, Frame Relays podem ser considerados VPNs (Virtual Private Networks).
+
+Pelo mesmo fato, WANs Frame Relay podem gerar muitos conflitos de conexão e apresentar problemas por alta utilização.
+
+3- ATM 
+
+Asynchronous Transfer Mode (ATM) pode ser considerada a evolução do Frame Relay pois possui mecanismos que tornam a rede mais rápida e evitam problemas causados por conflitos e alta utilização.
+
+Nas redes ATM os pacotes TCP (layer 3) são "quebrados" em celulas de 53 bytes, diferente de outros protocolos que apenas encapsulam os pacotes TCP em frames de tamanhos variáveis.
+
+Por conta disso, os pacotes não precisam passar pelo cálculo de "inicio e fim" da variável de tamanho do pacote, tornando a comunicação expressivamente mais rápida. Tamanhos pre-definidos das celulas tornam o trafego de voz sobre ip, streaming de audio e video mais preciso também, já que não existe o risco do dado trafegar junto de data frames muito longos.
+
+Assim como Frame Relay, também operam dividindo a infraestrutura física com inúmeros clientes através de VPNs.
+
+Outra caracteristica importante é que tanto Frame Relay, quanto ATM são redes complexas com implantaçã, operação e gerenciamento bastante caro, inclusive necessitando técnicos especialistas neste tipo de tecnologia.
+
+
+4- Carrier Ethernet
+
+Carrier Ethernet é o protocolo atual utilizado pela maioria das WANs e possibilita conexões de até 100 Gbps, porém não é considerado uma Virtual Private Network.
+
+Modelo de 3 Camadas da Metro Ethernet Forum (MEF) para Carrier Ethernet:
+
+3- Application Services Layer. Supports end-user applications carried by the Ethernet Services Layer
+2- Ethernet Services Layer (gerencia os frames). Supports basics Layer 2 Ethernet data communication services
+1- Transport Services Layer (Por exemplo: IEEE 802.1, SONET/SDH ou OTN). Delivers the Ethernet services using various technologies and media types
+
+Este modelo é aplicado 3 vezes através de:
+
+Data Plane:
+Handles data according to logic in place
+
+Control Plane:
+Instructs data plane on how to process data
+
+Management Plane:
+Administrative interface allowing for configuration
+
+
+5- MPLS é uma tecnologia para WANs que permite a integração de Frame Relays, ATMs e Carrier Ethernet. Ela é importante pois permite mixar na oferta de serviço a velocidade das redes Ethernet com o isolamento das ATMs para prover links dedicados ponto a ponto através da caracteristicas de VPN.
+Isso significa que qualquer um dos demais protocolos da CAMADA 2 (seja PPP, Frame Relay ou ATM) podem operar sob MPLS, que por sua vez também trabalha através do endereçamento pelo protocolo IP da CAMADA 3. Esta característica coloca na tabela OSA o MPLS virtualmente como CAMADA 2.4, entre a 2 e a 3.
+
+As tecnicas de encapsulamento e empacotamento da MPLS é semelhante a de Frame Relay.
+
+Multiprotocol Label Switching (MPLS) representa a tecnologia mais recente de redes de longa distância e podem operar com uma velocidade de até 100 Gigabits por segundo. O MPLS permite que sejam empregadas a melhores práticas e os melhores mecaniscos dos protocolos da CAMADA 2, PPP, Frame Relay, ATM e Ethernet justamente por não depender de tais do modelo ou tabela OSI. Através de roteadores específicos chamados Label Edge Routers (LER) o cabeçalho dos frames da camada 2 são examinados e substituídos por uma cabeçalho MPLS e é isso que permite que soluções mixadas sejam criadas.
+
+MPLS VPNs Camada 3, é uma solução que emprega o uso de Provider Edge Routers na infra da empresa prestadora de serviços garantindo isolamento ponto a ponto através das Virtual Routing and Forwarding Table (VFR) disponíveis nos hosts de origem e destino.
