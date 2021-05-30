@@ -1,0 +1,480 @@
+B. Silva (2018) destaca que “ocorreu uma grande mudança nos serviços oferecidos pelas redes de computadores. Além do compartilhamento de recursos e de novos serviços, como correio eletrônico, streaming de vídeo, transferência de arquivos, internet e aplicações multimídia; as redes foram ampliadas, aumentando ainda mais a complexidade delas. Não bastassem esses fatos, o mundo da interconexão de sistemas ainda passou a conviver com a grande heterogeneidade de padrões, sistemas operacionais e equipamentos”. 
+
+d. O texto sustenta resumidamente as causas para o aumento da complexidade da gestão das redes, o aumento do risco de perdas financeiras e a necessidade de utilização de ferramentas de gerenciamento de redes de computadores.
+
+
+
+
+Considerando o conceito de dispositivo gerenciado está correto afirmar que:
+
+
+e.É um elemento qualquer da rede (hardware) com um software de gerenciamento.
+
+
+
+
+Da entidade gerenciadora, podemos afirmar que:
+
+a. É uma aplicação.
+
+
+
+
+
+Dentre as vantagens das arquiteturas de gerenciamento centralizada, hierárquica e distribuída podemos citar, respectivamente:
+
+c. Simplicidade, balanceamento de tráfego, simplicidade e redundância de dados.
+
+
+
+
+
+Em uma empresa com sérias restrições orçamentárias decidiu-se implantar apenas o nível de gerência dos elementos de rede. O corpo executivo da empresa deve estar ciente, a bem de um bom alinhamento com a área de TI das seguintes restrições:
+
+
+d. Não será possível saber se um serviço ou processo de negócio está ameaçado.
+
+
+
+
+O gerenciamento de rede pode ser definido como a tarefa de testar, monitorar, configurar e resolver problemas dos componentes de rede, visando ao atendimento de um conjunto de requisitos definidos por uma empresa ou organização (FOROUZAN; MOSHARRAF, 2013). Com base nessa definição, podemos afirmar que:
+
+c. A atividade de gerenciamento de uma rede engloba a aplicação de software, hardware e pessoas.
+
+
+
+
+Por decisão da equipe técnica de uma empresa, ficou determinado aos prestadores de serviços de infraestrutura dessa empresa (datacenter) que não seriam feitas instalações de agentes estranhos aos sistemas operacionais, bem como estranhos a outros elementos da rede. Assim, optou-se pela utilização do agente de gerenciamento padrão mais comum a todos os elementos de rede, o agente que implementa o protocolo SNMP. Podemos afirmar que: 
+
+a. O agente SNMP deve funcionar dentro do dispositivo gerenciado, comunicando-se com a entidade gerenciadora.
+
+
+
+
+
+
+Quem projeta ou administra uma rede de computadores para uma organização deve ter em mente que se trata de uma ferramenta para apoiar as pessoas na execução de processos de negócio para atingir os objetivos dessa organização. Sendo assim, podemos afirmar que é fundamental o alinhamento da área de TI com os objetivos estratégicos da empresa. A isso chamamos de “alinhamento estratégico de TI com o negócio”. Isso posto, podemos afirmar que:
+
+c. A utilização dos recursos deve ser monitorada e controlada visando à garantia de que os requisitos dos usuários estejam satisfeitos por um custo razoável.
+
+
+
+
+
+Um objeto gerenciado pode ser:
+
+d. O nível de utilização da CPU de um servidor e o espaço em disco ocupado.
+
+
+
+
+
+
+Um protocolo de comunicação é uma disciplina ou conjunto de regras que norteiam a troca de mensagens entre elementos de rede. Dos protocolos de gerenciamento de redes abertos (não proprietários) que conhecemos, podemos citar:
+
+
+b. SNMP e CMIP.
+
+
+
+
+
+
+A coleta dos dados de intensidade de tráfego em uma porta de um dispositivo de rede, em um dado momento, é chamada de monitoração dinâmica. Qual a técnica de monitoração utilizada neste caso?
+
+b. Polling.
+
+
+
+
+Dos elementos de um Sistema de Gerenciamento de Redes, qual é o responsável por manter uma base de informações gerenciadas?
+
+c. Base de Informações Gerenciadas (MIB).
+
+
+
+
+
+Manutenção e análise de logs, monitoração de recursos pela realização de medições, avaliações de tendências, compilação de relatórios de desempenho, estabelecimento de métricas e parâmetros de QoS são algumas das tarefas de:
+
+a. Gerência de desempenho.
+
+
+
+O Sistema de Suporte aà Operação (OSF), Elemento de Rede (NEF), Estação de Trabalho (WSF), Adaptador Q (QAF), Elemento Mediador (MF), Rede de Comunicação de Dados (DCN) são definidos como:
+
+
+c. Blocos funcionais da arquitetura funcional do TMN.
+
+
+
+
+
+Agentes e gerentes constituem o ambiente de gerenciamento OSI. Podemos afirmar que: 
+
+e. As alternativas a, b e d estão c
+
+
+
+As operações definidas pelo CMIS/CMIP são executadas sobre: 
+
+c. Objetos gerenciados.
+
+
+
+
+
+Fault: gerenciamento de falhas, Configuration: gerenciamento de configuração, Account: gerenciamento de contabilidade, Performance: gerenciamento de desempenho e Security: gerenciamento de segurança, são áreas funcionais definidas pela ISO. Podemos afirmar que estas áreas funcionais 
+
+a. São as mesmas do modelo TMN.
+
+
+
+
+O CMISE (Common Management Information Service Element) consiste de: 
+
+b. Uma definição de serviço (CMIS) e de uma especificação de protocolo (CMIP).
+
+
+
+
+O protocolo CMIP está baseado no paradigma de: 
+
+c. Request/reply.
+
+
+
+
+
+
+O protocolo SNMP utiliza o modelo: 
+
+e. Cliente/servidor
+
+
+
+
+O protocolo SNMPv3 não apresentou a seguinte melhoria de segurança que segue: 
+
+d. Denial of service: uma pessoa poderia impossibilitar trocas de mensagens entre gerente e agente.
+
+
+
+Os serviços (CMIS) e o protocolo (CMIP) são especificados pela definição de várias operações que podem ser invocadas pela aplicação de gerenciamento.
+
+d. Neste caso a aplicação de gerenciamento exerce papel de gerente.
+
+
+
+
+
+
+Por outro lado, a aplicação de gerenciamento em resposta emite notificações no papel de: 
+
+c. Objetos gerenciados.
+
+
+
+
+SNMP é um protocolo de camada 4 que utiliza protocolo de transporte:
+
+
+e. As alternativas B e C estão corretas. 
+
+
+
+
+
+Como se pode definir monitoração e instrumentação?
+
+e. Verificação de estados e métodos de medida e controle 
+
+
+
+Dos serviços M-Set, M-Action, M-Delete, M-Event-Report, M-Get, M-Create e M-Cancel-Get, quais podem ser requisitados tanto no modo confirmado quanto no modo não confirmado? Os serviços M-Get, M-Create e M-Cancel-Get são sempre confirmados.
+
+c. M-Set, M-Action, M-Delete e M-Event-Report
+
+
+
+
+Entre as preocupações com segurança do SNMPv3 estão
+
+a. Autenticação, Autorização, Acesso
+
+
+
+O SNMP utiliza protocolo UDP. Com isso podemos afirmar que:
+
+c. Não há garantia fim a fim
+
+
+
+
+
+
+
+A ferramenta RRDtool (Round-Robin Database tool) é baseada em uma técnica de dados denominada round-robin. No que consiste o round-robin?
+
+b. É mantida uma quantidade fixa de dados e existe um ponteiro que aponta o elemento atual.
+
+
+
+
+
+
+Abaixo, há duas colunas, uma com as ferramentas de gerenciamento existentes, e outra com o tipo de ferramenta. Relacione corretamente as colunas.
+Ferramentas de Gerenciamento
+(1) Snort
+(2) Cacti
+(3) phpIPham
+(4) Syslog
+
+
+Tipo de Ferramentas
+a) Gerenciamento de Endereços
+b) Análise de Performance
+c) Gerenciamento de logs
+d) Sistemas de Detecção de Invasão
+
+
+c. 1 – d; 2 – b; 3 – a; 4 – c.
+
+
+
+
+
+
+Complete o texto:
+É necessário entender a diferença entre os alertas dos logs. Um _____ indica que uma operação fora do normal está ocorrendo. Já um ____ , normalmente um arquivo-texto, ajuda a identificar a causa desse acontecimento. Existem sistemas gerenciadores de ______ que podem utilizar as informações gravadas para descobrir o que ocorreu no sistema.
+Assinale a alternativa que completa corretamente o texto:
+
+
+d. Alerta; log; logs.
+
+
+
+
+
+
+Considere as afirmações abaixo:
+I. O comando ping utiliza o TCP para verificar a acessibilidade de equipamentos.
+II. O comando traceroute permite a verificação do caminho feito por um pacote para chegar ao destino.
+III. O ICMP é utilizado para gerenciar as informações relativas aos erros nas máquinas conectadas, realizando debug da rede.
+Assinale a alternativa correta:
+
+c. Somente a II e a III estão corretas.
+
+
+
+
+
+Em relação à diferença nos aplicativos MRTG e Cacti, assinale a alternativa correta: 
+
+b. O Cacti é uma ferramenta de monitoramento SNMP, que usa o RRDTool para exibir os dados monitorados; o MRTG é uma ferramenta para monitoramento SNMP como o Cacti, porém o MRTG não possui interface web de configuração, apresentando uma visualização de dados mais simples.
+
+
+
+
+
+
+Em relação ao protocolo ICMP, considere as seguintes afirmações:
+I. Esse protocolo opera na camada de enlace.
+II. O Time To Live (TTL) define o número máximo de roteadores pelos quais o pacote pode trafegar.
+III. O tempo necessário para o pacote ir e voltar do seu destino é conhecido como Total Trip Time (TTT).
+Assinale a alternativa correta:
+
+c. Somente a II está correta
+
+
+
+
+
+Existem diversos tipos de ferramentas de gerenciamento. Em relação aos sistemas de análise de performance, assinale a alternativa correta:
+
+a. Nessas ferramentas, normalmente, os dados são plotados em gráficos, possibilitando o acompanhamento dos resultados e permite a identificação de gargalos na rede.
+
+
+
+
+O NetFlow, criado pela Cisco, identifica unicamente um pacote pelos endereços IP de origem e de destino, pelo número das portas da camada de transporte na origem e no destino, pela interface lógica de entrada do roteador ou switch e pelos campos Protocol Type e por mais um. Qual o nome desse campo do NetFlow?
+
+e. Tipo de Serviço ou ToS (Type of Service).
+
+
+
+
+
+O serviço que registra os eventos e as ações dos processos em qualquer dispositivo, adotando o padrão de mensagem definido pela IETF é chamado de:
+
+e. Syslog.
+
+
+
+
+
+Sobre ferramentas de gerenciamento, considere as seguintes afirmações:
+I. Grandes empresas de software criaram as ferramentas RRDtool e MRTG.
+II. O maior problema da técnica do RRDtool é que, com o passar do tempo, aumenta muito a quantidade de dados armazenados.
+III. A ferramenta Cacti utiliza a ferramenta RRDtool para armazenamento dos dados e é uma ferramenta gráfica. 
+
+
+d. Somente a III está correta.
+
+
+
+
+
+O ICMP pode ser definido como:
+
+d. Um protocolo de camada de rede usado para gerência.
+
+
+
+O TCPDUMP é uma ferramenta utilizada para:
+d. Coleta de tráfego.
+
+
+
+O desempenho de um host pode ser avaliado com que ferramentas?
+
+b. Zabbix.
+
+
+
+Uma mesma ferramenta de gerenciamento pode apresentar características de mais de um tipo. A afirmativa está:
+
+a. Correta.
+
+
+
+
+
+
+
+Diversas ferramentas de gerenciamento são distribuídas pela licença GPL, ou seja, General Public License. Em relação à GPL, considere as seguintes afirmações:
+
+I. O código do GPL é fechado e o usuário não pode alterar.
+
+II. O software só pode ser utilizado para fins acadêmicos e pessoais, e não pode ser utilizado para fins comerciais e empresariais.
+
+III. O usuário pode desenvolver melhorias na ferramenta e compartilhar com a comunidade de usuários.
+
+
+
+d. Somente III está correta.
+
+
+
+
+Em relação à ferramenta de gerenciamento Nagios Core, considere as seguintes afirmações:
+I. A ferramentas possui uma poderosa interface com o usuário.
+II. O Nagios foi desenvolvido em Linux e pode ser expandido através de plug-ins
+III. O Nagios Core possibilita o monitoramento de toda a infraestrutura de TI para garantir que os sistemas, aplicativos, serviços e processos de negócios estejam funcionando corretamente.
+Assinale a alternativa correta.
+
+a. Somente II e III estão corretas.
+
+
+
+
+Em relação às ferramentas de gerenciamento, assinale a alternativa correta.
+
+
+e. Diversas empresas de software, como HP e IBM criaram soluções de gerenciamento de redes cuja licença de uso é cobrada, provendo mais serviços aos usuários, interfaces mais amigáveis e intuitivas e suporte aos usuários.
+
+
+
+
+
+
+
+Em relação ao software Pandora FMS (Flexible Monitoring System), considere as seguintes afirmações:
+I.O projeto do software foi iniciado com uma versão open source.
+II.Atualmente, a empresa só possui a versão enterprise, que é paga.
+III.A arquitetura é formada basicamente por quatro componentes: servidores Pandora FMS, console web, banco de dados e agente de software.
+Assinale a alternativa correta.
+
+c. Somente as afirmações I e III estão corretas.
+
+
+
+
+
+Em relação ao software Squid, leia o texto abaixo e assinale a alternativa que completa corretamente as lacunas.
+O software Squid para servidor ______, projetado com base em sistemas ______, foi implementado para desempenhar tanto a função como _________ quanto como proxy e cache.
+
+c. proxy; Unix ; HTTP.
+
+
+
+
+
+O software Nagios possui atualmente duas versões: Nagios Core e Nagios XI. Em relação às versões, considere as seguintes afirmações:
+I. Ambas as versões são distribuídas através de GPL.
+II. A versão Nagios Core possui uma interface gráfica com dashboards que proporciona a informação detalhada dos equipamentos monitorados.
+III. O Nagios XI é uma solução muito mais completa que inclui além do monitoramento da infraestrutura, alertas, relatórios e interface do usuário.
+
+
+d. Somente III está correta.
+
+
+
+
+
+Qual das alternativas abaixo é uma ferramenta de gerenciamento comercial paga?
+
+e. CA NetMaster
+
+
+
+
+
+
+Qual das alternativas abaixo é uma ferramenta de gerenciamento de redes gratuita?
+
+d. Squid
+
+
+
+
+Sobre o software Zabbixx, assinale a alternativa correta.
+
+d. Este software é capaz de monitorar a disponibilidade e a performance de toda a sua infraestrutura de rede, além de aplicações.
+
+
+
+Uma extensão aplicada ao Squid é o Squid Guard. Qual a principal característica do Squid Guard?
+
+
+e.bloqueio de um conjunto de listas específicas, categorizadas, que são denominadas Blacklists.
+
+
+
+
+De todas as ferramentas apresentadas neste bloco, podemos afirmar que: 
+
+d. de um modo geral, as ferramentas apresentam mecanismos de detecção de falhas e apresentação da situação.
+
+
+
+
+Entre as características que diferenciam o Nagios XI do Nagios Core, podemos citar: 
+
+c. Só o Nagios XI suporta envio de traps
+
+
+
+Entre as funcionalidades do Zabbix, podemos citar: 
+
+e. todas as alternativas estão corretas
+
+
+
+Sendo o servidor Squid um servidor proxy, espera-se dele que:
+
+b. reduza o tráfego da rede interna com a internet
+
+
+
+
