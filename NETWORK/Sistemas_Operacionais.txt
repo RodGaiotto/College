@@ -1,0 +1,1043 @@
+Atualmente, os sistemas operacionais possuem as características de multitarefas, ou seja, executam mais de uma tarefa/aplicação. Isso é possível graças a um recurso denominado: 
+
+a. threads.
+
+
+
+
+Conhecemos como a parte fundamental de um sistema operacional. Ele quem gerencia a relação entre os dispositivos de entrada/saída, processadores, memória etc. Estamos falando do: 
+
+a. Kernel.
+
+
+
+Dentro dos sistemas operacionais, ele é responsável pela comunicação/interação de hardware e software, um interpretador de comandos. Nesse caso, essa citação refere ao:
+
+b. Shell.
+
+
+
+O sistema básico pré-gravado no chipset da placa-mãe é conhecido por: 
+
+c. BIOS (Basic Input/Output System).
+
+
+
+Para Deitel, Deitel e Choffnes (2010), o Windows teve início com o quê? Assinale a alternativa correta.
+
+b. MS-DOS.
+
+
+
+Para abrir as configurações de inicialização do Windows é necessário executar a ferramenta de configuração do Windows. Qual comando é usado para executá-la?
+b.
+
+msconfig.
+
+
+
+
+Para efetuar uma alteração no processo de inicialização do sistema operacional Windows, utiliza-se o comando: 
+
+b. msconfig.
+
+
+
+Permitir que diversas pessoas utilizem o mesmo equipamento, mas garantindo a privacidade de arquivos e configurações de cada um, é uma característica de sistemas operacionais do tipo:
+
+c.
+
+Multiusuários.
+
+
+
+
+
+Refere-se ao processo em que o programa é executado ao ligar a máquina e mantém-se em funcionamento enquanto a máquina estiver ligada:
+
+b. Bootstrapping.
+
+
+
+
+
+
+Segundo Deitel, Deitel e Choffnes (2010), o sistema operacional reveza sua execução com a de outros, sendo composto por três elementos. Assinale quais são:
+
+a.
+
+Kernel, sistema de arquivos e interpretador de comandos (shell).
+
+
+
+
+
+Analise as afirmações:
+I. Desabilitar animações visuais do Sistema Operacional ajuda a melhorar a performance, mas pode comprometer o funcionamento de outros recursos.
+II. A aquisição (troca) de um disco rígido padrão por um SSD pode melhorar significativamente a performance do equipamento.
+III. O desfragmentador de disco é um recurso configurado para ser automático nas novas versões do Windows.
+IV. A restauração completa do computador deverá ser feita sempre que houver lentidão no sistema.
+V. A limpeza de disco é responsável por restaurar o computador para os padrões de fábrica.
+Assinale a alternativa correta.
+
+e.
+
+IV e V estão incorretas.
+
+
+
+
+Analise as afirmações:
+I. Fonte de inicialização é um dispositivo ou componente que possui um “setor zero” (Master Boot Record).
+II. Um CD, disco rígido ou dispositivo USB podem ser uma fonte de inicialização de sistema.
+III. O BIOS é responsável por guardar todas as configurações do sistema, como informações de disco, memória e processador.
+IV. O POST é uma sequência de testes que o BIOS realiza sobre o hardware para verificar se tudo está funcionando corretamente.
+V. A opção de “Inicialização Seletiva” vem habilitada por padrão no Windows.
+Assinale a alternativa correta. 
+
+e. A afirmação V está incorreta.
+
+
+
+Analise as afirmações:
+I. O principal diferencial do Windows Vista foi a sua estabilidade e simplicidade de utilização.
+II. A “devolução” do botão Iniciar aos recursos de sistema foi empregada no Windows 8.1.
+III. O principal objetivo de lançamento do Windows 7 foi maximizar a estabilidade e corrigir erros do seu antecessor.
+IV. O Windows XP foi marcado por sua mudança de visual para a época de lançamento, bem como sua estabilidade.
+V. O recurso de múltiplas áreas de trabalho foi empregado pela primeira vez no Windows 10, exclusivamente.
+Assinale a alternativa correta. 
+
+
+d. A afirmação I está incorreta.
+
+
+
+Aponte a alternativa correta:
+Analise as afirmações:
+I. O Kernel é a base fundamental do sistema, sendo responsável pela gestão de memória e processador.
+II. A versão Server dos Sistemas Operacionais Windows foi desenvolvida para uso doméstico.
+III. O Sistema Operacional é responsável por fornecer uma interface “computadorusuário”.
+IV. O Shell faz a comunicação entre hardware e software por meio de comandos.
+O Windows 95 foi o primeiro a trazer o botão “Iniciar”. 
+
+
+c. I, III, IV e V estão corretas.
+
+
+
+
+
+Esta versão foi desenvolvida pela Microsoft para ambientes de grande porte, principalmente para ambientes de Nuvem Privada, com alta criação de ambiente virtualizado. Qual versão do Windows Server 2012 R2 é essa?
+
+a.Datacenter.
+
+
+
+
+Após a instalação do sistema operacional Windows Server 2012 R2, por padrão, quais atalhos são observados?
+
+a.PowerShell, Server Manager e File Explorer.
+
+
+
+
+Das alternativas, qual descreve um evento que ocorre com o Windows Server 2012 R2 após o período de avaliação?
+
+d. O sistema reinicializa de hora em hora.
+
+
+
+Dentre todas as outras versões do Sistema Operacional Windows, a versão Windows Server 2012 R2 é mais parecida com a:
+
+c. Windows 8.1.
+
+
+
+Dentre todas as versões disponíveis para instalação disponibilizada pela Microsoft, qual das versões foi descontinuada pela empresa?
+
+d. Enterprise.
+
+
+
+
+Para empresas pequenas e que não irão utilizar muito os diversos recursos disponíveis do Windows Server 2012 R2, como um Hyper-V Server, FailOver Clustering, Server Core ou Remote Desktop Services (RDS), a Microsoft desenvolveu a versão:
+
+c. Windows Server 2012 R2 Essentials.
+
+
+
+
+Quais as versões disponibilizadas pela Microsoft para a instalação do Windows Server 2012 R2?
+
+d. Datacenter, Standard, Essentials, Foundation e Hyper-V.
+
+
+
+Qual a principal ferramenta totalmente renovada para o Windows Server 2012 R2?
+
+b. Server Manager.
+
+
+
+
+Qual serviço disponibilizado no Sistema Windows Server 2012 R2 permite centralizar toda administração de contas, políticas e controle de acesso? 
+
+c. Active Directory (AD DS).
+
+
+
+Todas as versões do Windows Server 2012 R2 possui um período de ativação e avaliação que compreende, respectivamente: 
+
+b. 10 dias para ativação e 180 dias para avaliação.
+
+
+
+Analise as afirmações:
+I. Para que as funcionalidades do usuário sejam mantidas e não ocorram problemas, recomenda-se não alterar o nome de usuário Administrador.
+II. Os recursos, os aspectos e as características visuais do sistema operacional são semelhantes a de sistemas já conhecidos, como o Windows 8.1, facilitando a adaptação.
+III. É importante definir uma senha padrão e fácil de ser lembrada, não importando sua complexidade.
+IV. No momento de criar as partições de sistema, o Windows cria automaticamente os “pedaços” de armazenamento obrigatórios para o bom funcionamento.
+V. Não é necessário particionar unidades.
+Assinale a alternativa correta.
+
+d. II e IV estão corretas.
+
+
+
+Analise as afirmações:
+I. A opção “recuperar computador” deve ser utilizada apenas em casos em que uma restauração seja inevitavelmente necessária.
+II. Uma vez selecionado o padrão de teclado ABNT2, não é possível fazer alterações no sistema instalado posteriormente.
+III. Não é necessário selecionar a versão de sistema a ser instalada, uma vez que todas as versões possuem recursos idênticos.
+IV. Na parte de instalação, deve-se selecionar a opção “instalar apenas no Windows”, pois essa opção permitirá a realização de modificações importantes para o correto funcionamento.
+V. Deve-se analisar se existe um outro sistema previamente instalado na máquina.
+Assinale a alternativa correta.
+
+
+c. I, IV e V estão corretas.
+
+
+
+Analise as afirmações:
+I. O Hyper-V 3.0 é um recurso antigo, presente em outras versões do Windows, e que foi melhorado.
+II. Antes de iniciar uma restauração do sistema operacional ou a instalação do Windows Server, é necessário garantir o backup adequado e o armazenamento dos drivers.
+III. O novo Power Shell conta com recursos para criação, edição e execução de scripts de forma simplificada.
+IV. A versão GUI do Windows Server, disponível para avaliação, é a opção que possui interface gráfica integrada.
+V. Um dos destaques do novo sistema da Microsoft foi seu suporte a serviços baseados em nuvem.
+Assinale a alternativa correta:
+
+
+e. III, IV e V estão corretas.
+
+
+
+Analise as afirmações:
+I. O Windows Server 2012 R2 Datacenter é indicado para pequenas e médias empresas.
+II. Todas as versões dos sistemas para servidores da Microsoft possibilitam utilizar vários processadores.
+III. As funções de Active Directory e DHCP só estão disponíveis na versão Standard do Windows Server.
+IV. A Microsoft idealizou sistemas que pudessem atender a demanda específica de cada organização, de acordo com suas necessidades.
+V. A versão Datacenter suporta até 64 processadores e 4 TB de memória RAM.
+Aponte a alternativa correta:
+
+
+b. IV e V estão corretas.
+
+
+
+
+
+
+Dentre os serviços disponíveis executados por sistema servidor, quais algumas vantagens podem atribuir para o serviço DHCP em um servidor Windows Server 2012 R2?
+
+c.Facilitar a atribuição de IPs para cada computador na rede
+
+
+Por padrão, uma outra maneira de se gerenciar um servidor remotamente é pelo RDP (Remote Desktop Protocol). Para a utilização dessa ferramenta deixar a seguinte por porta TCP disponível e liberada no firewall do Windows Server 2012 R2:
+
+d. TCP/3389.
+
+
+
+
+Com uma aparência renovada, o Server Manager traz também ferramentas para gerenciamento de servidores remotos. Qual o comando é possível verificar o IP de um servidor remoto?
+
+b. WinRs –r:ServidorX.com ipconfig.
+
+
+
+
+
+Configurar um IP fixo para um servidor Windows Server 2012 R2 é uma recomendação importante a ser feito antes de instalar qual dos serviços?
+
+d. DHCP.
+
+
+
+
+
+Dentre os sistemas operacionais disponíveis no mercado, o serviço de DHCP será de fácil configuração em quais sistemas?
+
+e. Nenhuma das alternativas anteriores está correta.
+
+
+
+
+
+Para a identificação de um dispositivo em uma rede, ele precisa receber um endereço de IP. Os endereços IP em sua versão 4 estão divididos em 5 classes, A, B, C, D e E, mas apenas as classes A, B e C podem ser utilizadas para endereçamento de dispositivos. Dos 4 octetos que o compõem, somente os 4 primeiros octetos definem a classe o qual esse IP pertence. Qual intervalo demonstra IP da classe B?
+
+c. Classe B: de 128 até 191.
+
+
+
+Services ou serviços é o console disponibilizado pelo Windows que permite ao administrador visualizar, habilitar, reiniciar ou até para um serviço no servidor. Qual comando é utilizado para abrir esse console?
+
+b. Services.msc.
+
+
+
+Sua principal função é auxiliar os administradores de TI no processo de instalação, configuração e gerenciamento de funções e recursos, tanto do servidor local quanto de servidores remotos. Esses comentários referem-se a:
+
+b. Server Manager.
+
+
+
+
+O gateway-padrão configurado no servidor ou equipamentos que compõem a rede contém, geralmente, o número de IP de um roteador que, geralmente, disponibiliza qual tipo de acesso? 
+
+b. Acesso a outras redes ou para a internet.
+
+
+
+
+Qual regra básica que todo servidor ou computadores em uma rede deve possuir?
+
+
+a. Nome de host e um número de IP fixo.
+
+
+
+
+Analise as afirmações:
+I. A opção “Adicionar Exclusões e Atraso” permite selecionar endereços IP que não podem ser distribuídos por possuírem uma função específica.
+II. As definições de rede recebidas pela máquina-cliente podem ser verificadas através do comando “ipconfig /all”.
+III. Para que o escopo do DHCP funcione, ele precisa ser ativado manualmente.
+IV. Durante o preenchimento das informações no escopo DHCP, a máscara de sub-rede dará a identificação da rede.
+V. O sistema operacional das máquinas-clientes geralmente são configuradas para obter definições de rede automaticamente.
+Assinale a alternativa correta.
+
+
+d.Todas as afirmações estão corretas.
+
+
+
+
+
+Analise as afirmações:
+I. O IPV4 é dividido em 5 classes, mas apenas três delas podem ser utilizadas no endereçamento de dispositivos.
+II. O comando “ipconfig” pode ser utilizado para identificação da classe
+de endereçamento do IPV4.
+III. É necessário um computador exclusivo para disponibilizar o serviço de DHCP.
+IV. O servidor DNS preferencial é utilizado prioritariamente e, no caso de seu não funcionamento, a função é assumida pelo servidor DNS alternativo.
+V. O gateway padrão pode ser um roteador de internet.
+Assinale a alternativa correta.
+
+
+d. A afirmação III está incorreta.
+
+
+
+
+Analise as afirmações:
+I. O comando WinRM QuickConfig é responsável por habilitar o serviço Windows Remote Management.
+II. O comando “mstsc” é responsável por iniciar a Área de Trabalho Remota através do protocolo RDP.
+III. O Server Manager possui uma opção de gerenciar todos os servidores presentes no ambiente, facilitando a atuação do administrador de redes.
+IV. O serviço Windows Remote Management está habilitado por padrão no Windows Server.
+V. É necessário instalar um console de gerenciamento da Microsoft (MMC) para poder conectar em outros servidores no Windows Server 2012.
+Assinale a alternativa correta.
+
+
+a. As afirmações IV e V estão incorretas.
+
+
+
+
+
+Analise as afirmações:
+I. É recomendável utilizar a ferramenta Server Manager para auxiliar na configuração do Windows Server por sua simplicidade.
+II. Somente pode ser configurado um servidor para cada função
+a ser disponibilizada.
+III. O comando “hostname” informa as configurações de rede do servidor.
+IV. É importante que sejam utilizadas configurações customizadas para aplicação em cada ambiente/empresa.
+V. O Windows server realiza todas as funções de configurações básicas automaticamente.
+Aponte a alternativa correta.
+
+
+b.Apenas I e IV estão corretas.
+
+
+
+
+Para resolver problemas de nomes em uma rede, qual dos serviços pode-se configurar em um servidor Windows Server 2012 R2?
+
+d.DNS.
+
+
+
+Devido ao tamanho da estrutura da internet mundial, o órgão que regulamenta as regras da internet mundialmente, Iana, designa alguns servidores como registradores regionais de IP, conhecidos como Regional Internet Registrty (RIR), que tem o papel principal de fornecer e gerenciar blocos de IPs. No Brasil, o órgão que coordena a distribuição de IPs e registros é:
+
+
+a. NIC.br.
+
+
+
+Domain Name System é um dos serviços disponibilizados pelo Windows Server 2012 R2. Esse é o significado para qual serviço? 
+
+c. DNS.
+
+
+
+
+Em um ambiente Windows, qual comando é realizado para testar a conexão de um computador na rede? 
+
+d. PING.
+
+
+
+Executando o Prompt de Comando com direitos administrativos, o comando ipconfig /flushdns fará: 
+
+c. Antecipar a remoção dos registros DNS do cache local.
+
+
+
+
+O Serviço DNS no Windows Server, da mesma forma que o DHCP, é apresentado como uma função e deve ser instalado a partir do:
+
+d.Gerenciador do Servidor (Server Manager).
+
+
+
+
+O arquivo hosts é um arquivo utilizado até hoje em sistemas operacionais Windows. Esse arquivo contém informações relacionais de IP a um hostname. Para facilitar o trabalho de administrador de TI, qual serviço surgiu em 1984 com uma alternativa para substituir esse arquivo?
+
+d. DNS.
+
+
+
+
+O servidor DNS recebe uma solicitação de consulta de um IP e este retorna com o nome de domínio ao qual o site está associado, essa resolução de nome está relacionada à resolução:
+
+b. Resolução inversa.
+
+
+
+Quais os dois tipos de resolução de nomes que o DNS pode trabalhar?
+b. Resolução direta e resolução inversa.
+
+
+
+Quando falamos de zona primária, zona secundária e zona de Stub, referem-se às zonas de pesquisas direta e inversa para qual serviço de servidor? 
+
+
+a. DNS.
+
+
+
+
+
+Analise as afirmações:
+I. As duas resoluções de nomes possíveis de um servidor DNS são a resolução direta e resolução inversa.
+II. O comando "ping -a" pode fazer a tradução de um endereço IP a fim de testá-lo.
+III. Para as Zonas de Pesquisa Direta e Inversa podem ser criadas Zona Primária, Zona Secundária e Zona Stub.
+IV. Chamam-se de servidores autoritativos aqueles que possuem zonas e seus respectivos registros.
+V. A Zona de Stub cria uma cópia de zona que contém somente informações sobre quem pode resolver os nomes desse domínio.
+Assinale a alternativa correta.
+
+a. Todas as afirmações estão corretas.
+
+
+
+
+
+Analise as afirmações:
+I. O serviço de DNS no Windows Server deve ser instalado através do Gerenciador do Servidor.
+II. O arquivo Hosts não é mais utilizado nos sistemas após a chegada do serviço
+de DNS.
+III. A Internet Assigned Numbers Authority é responsável por administrar
+os servidores-raiz de resolução de nomes em todo o mundo.
+IV. Cada país no mundo possui um Regional Internet Registry (RIR).
+V. O Registro.br é responsável por gerenciar a parte de registros de domínios no Brasil.
+Aponte a alternativa correta.
+
+a. As afirmações II e IV estão incorretas.
+
+
+
+
+
+Analise as afirmações:
+I. Os dois registros que são criados por padrão em toda zona são o SOA e o NS.
+II. O SOA (Start of Authority) é utilizado para criar um mapeamento entre um nome DNS e um endereço IP versão 4.
+III. Um servidor MX pode hospedar serviços de e-mail, como o Microsoft Exchange, por exemplo.
+IV. Um registro do tipo PTR (Pointer) sempre deverá estar associado a um registro host criado em uma zona direta.
+V. O SOA (Start of Authority) contém o nome da zona e o nome do servidor que é autoridade para a zona relacionada.
+Assinale a alternativa correta.
+
+e. A afirmação II está incorreta.
+
+
+
+
+Analise as afirmações:
+I. Para testar a resolução de nomes do servidor DNS, pode-se utilizar o comando "ping“, no MSDOS.
+II. As informações de cache de DNS podem ser visualizadas através do comando "ipconfig /displaydns" no MSDOS.
+III. O comando ipconfig /flushdns é responsável por realizar a remoção dos registros de DNS no registro local.
+IV. Os comandos executados devem ser realizados com privilégios administrativos.
+V. CNAME é um tipo de servidor DNS.
+Assinale a alternativa correta.
+
+
+c. A afirmação V está incorreta.
+
+
+
+
+
+
+
+
+Para uma rede de computadores em que toda a estrutura administrativa de contas de usuários, grupos e políticas de rede estão centralizados em um servidor Windows Server 2012 R2, podemos dizer que essa rede está em um ambiente de:
+
+d.Domínio.
+
+
+
+Dentre os diversos objetos que se pode criar no Active Directory, destaca-se:
+
+d. Usuário e grupo.
+
+
+
+
+Dentre os sistemas, qual é o único que pode ingressar em um domínio? 
+
+a. Windows Professional.
+
+
+
+
+Dentro da estrutura do Active Ditectory, quais os dois tipos de objetos criados para organizar o ambiente?
+
+c. Unidade organizacional e contêineres.
+
+
+
+
+
+O comando repadmin /replsum é utilizado no Prompt de Comando para visualizar qual tipo de informação?
+
+d. Para visualizar se o serviço de réplica entre os servidores está funcionando.
+
+
+
+
+O contêiner Deleted Objects, uma vez habilitado no Active Directory, permite o administrador realizar qual procedimento? 
+
+a. Observar e recuperar objetos que tenham sido excluídos.
+
+
+
+
+
+Os arquivos NTDS.DIT são arquivos de banco de dados baseados em um padrão LDAP. Esses arquivos que, geralmente, encontram-se na pasta do sistema operacional Windows, C:\windows\ntds\, basicamente, têm como propósito de: 
+
+d. Manterá todos os objetos necessários ao funcionamento do ambiente.
+
+
+
+
+Para garantir uma segurança na rede e garantir a disponibilidade do serviço do controlador do domínio em caso de falha, recomenda-se configurar um serviço de:
+
+b. Controlador de domínio adicional.
+
+
+
+Que nome é conhecido um servidor que está configurado para centralizar toda a estrutura e as políticas de usuários em uma rede? 
+
+c. Controlador de domínio.
+
+
+
+
+Segundo Battisti e Popovici (2015), uma floresta é:
+
+a. Uma coleção de domínios com Schema e configuração compartilhados.
+
+
+
+
+
+I. No ato de criação de um servidor réplica com o Active Directory, apenas algumas funções podem ser replicadas.
+II. A replicação do Active Directory em outro servidor é importante para permitir que o serviço fique no ar sem interrupções em caso de problemas com um dos servidores.
+III. O comando "repadmin /replsum" testa a replicação dos servidores.
+IV. É recomendável aplicar um padrão de nomes para os dispositivos ingressantes no domínio.
+V. As configurações de rede das máquinas clientes devem ser definidas. 
+
+
+d. A afirmação I está incorreta.
+
+
+
+Analise as afirmações
+ 
+I. Recomenda-se que cada usuário da rede tenha o seu objeto criado dentro do Active Directory.
+II. Um grupo contribui, entre outros elementos, para delegação de permissões
+de usuários.
+III. Grupos de segurança também podem ser utilizados para listas de distribuição.
+IV. Os grupos de distribuição são utilizados para distribuição de e-mails.
+V. Usuários e grupos são objetos do Active Directory.
+ 
+Assinale a alternativa correta.
+
+a. Todas as afirmações estão corretas.
+
+
+
+
+
+Analise as afirmações
+ 
+I. Só é possível gerenciar uma máquina cliente pelo Active Directory ao inseri-la no domínio criado.
+II. A administração do Active Directory é uma tarefa secundária para os administradores de redes.
+III. Para facilitar a organização de toda a estrutura, o ambiente permite que objetos chamados de Unidade Organizacional (OU) sejam criados dentro da estrutura do domínio.
+IV. Unidades Organizacionais podem ser utilizados para agrupar usuários, grupos e computadores por localidade, função ou tipo. 
+
+c. As afirmações I, III e IV estão corretas.
+
+
+
+
+
+Analise as afirmações:
+ 
+I. É recomendável que existam réplicas para todos os servidores da rede com serviços mais críticos.
+II. As réplicas devem estar em computadores com arquiteturas completamente diferentes para garantir a variação dos recursos.
+III. Em um domínio, será necessário ter pelo menos um servidor para manter o banco de dados para armazenar os objetos.
+IV. Em um ambiente workgroup, as contas de usuários e todos os recursos administrativos estão distribuídos nos servidores que compõem a rede.
+V. Um ambiente de domínio armazena toda a estrutura administrativa de forma centralizada. 
+
+
+a. A afirmação II está incorreta
+
+
+
+
+É uma ferramenta nativa do ambiente e já disponível também em versões anteriores do servidor, em que já era possível publicar websites e outros serviços online tanto para dentro da organização quanto para acessos de usuários externos que necessitassem de informações específicas. Essa informação refere-se a:
+
+c. Web Services – Internet Information Server (IIS).
+
+
+
+
+
+Um conjunto de regras ou configurações que permite ao administrador definir os recursos de usuários e computadores é conhecido por:
+
+b.GPO.
+
+
+
+As formas que uma GPO é aplicada após ser configurada são: 
+
+b. Em computadores e para usuários.
+
+
+
+Das alternativas, qual indica as três diretivas que podem ser configuradas? 
+
+a. Não configurada, habilitada e desabilitada.
+
+
+
+
+Dentre as novidades trazidas pelo Windows Server 2012 R2, destaca-se o Hyper-V, para as empresas que trabalham em ambientes virtuais. Para discos virtuais em Windows Server 2012 R2, são os dois estilos de particionamento: 
+
+a. MBR e GPT.
+
+
+
+
+
+Desde qual versão do Windows a Microsoft vem inserindo as funções do PowerShell?
+
+d. Windows 7.
+
+
+
+
+
+Em máquinas com o Windows Server 2012 R2, para fazer virtualizações, é necessário instalar: 
+
+c. Hyper-V.
+
+
+
+
+
+O comando gpedit.msc é, basicamente, utilizado para ajustar as diretivas de grupo e usuários em ambiente: 
+
+a. Local.
+
+
+
+
+O processo em que se podem criar vários ambientes operacionais (sistemas operacionais instalados) em um mesmo hardware, permitindo que os recursos de hardware existentes sejam compartilhados e aproveitados melhor, evitando o desperdício de recursos tecnológicos, é o processo de:
+
+b. Virtualização.
+
+
+
+
+
+
+
+Qual uma correta definição para o PowerShell do Windows Server 2012 R2?
+
+
+b. É o novo shell de linha de comando do Windows.
+
+
+
+
+
+
+
+Analise as afirmações.
+I. O Windows Server 2012 já vem com todos os recursos de serviço de impressão habilitados por padrão.
+II. Servidor web é aquele utilizado para publicar websites para que estes possam ser acessados via Internet.
+III. A virtualização pode evitar ou diminuir o desperdício de recursos tecnológicos.
+IV. Hyper-V é a função disponível nos servidores Microsoft para implementar
+o serviço de virtualização de Sistemas Operacionais.
+V. A opção Hyper-V Settings permite gerenciar recursos do serviço do Internet Information Server (IIS).
+Assinale a alternativa correta.
+
+
+c. Apenas as afirmações II, III e IV estão corretas.
+
+
+
+
+
+
+Analise as afirmações.
+I. Existem três configurações possíveis para as diretivas de um objeto GPO:
+não configurada, habilitada e desabilitada.
+II. Para que um objeto GPO seja aplicado a um outro objeto no domínio, ele deverá ser vinculado a um Site, Domínio ou Unidade Organizacional.
+III. A GPO pode ser utilizada para distribuição de endereços IP na rede de dados.
+IV. Console de Gerenciamento de Políticas deve ser utilizado para gerenciar as políticas de grupo.
+V. As políticas de grupo devem ser configuradas nas máquinas localmente por questões de segurança.
+Aponte a alternativa correta.
+
+b. III e V estão incorretas.
+
+
+
+
+Analise as afirmações.
+I. Os discos configurados como “básicos” permitem a criação de diversos tipos de volumes, como o “simples” e o “expandido”.
+II. Windows Server 2012 R2 comporta dois estilos específicos de tipos de partição: MBR e GPT.
+III. As opções de segurança de acesso a volumes do Windows Server aplicam-se apenas a sistemas de arquivos NTFS.
+IV. Os recursos de disco podem ser gerenciados
+através do comando “diskmgmt.msc”, no prompt de comando.
+V. Uma partição MBR suporta até 128 partições primárias.
+Assinale a alternativa correta.
+
+
+e. As afirmações I e V estão incorretas.
+
+
+
+
+
+Analise as afirmações.
+I. Os modelos de disco virtual do Hyper-V são VHD e VHDx.
+II. Os formatos dos discos virtuais podem ser “fixo”, “dinâmico” ou “diferencial”.
+III. Existem três tipos de switches virtuais. Eles são: Externo, Privado e Interno.
+IV. O PowerShell utiliza comandos chamados de cmdlets.
+V. PowerShell também é capaz de responder a muitos comandos que eram utilizados no antigo Prompt de Comando, como “ping” e “ipconfig”.
+Assinale a alternativa correta.
+
+
+d. Todas as afirmações estão corretas.
+
+
+
+
+
+É correto afirmar que Linux é completamente gratuito?
+
+c. Não, porque existem distribuições corporativas que cobram pelo suporte.
+
+
+
+
+O sistema de arquivos é responsável pelo gerenciamento das informações que são gravadas em uma determinada partição do disco. O sistema GNU/Linux trabalha com uma grande variedade de sistemas de arquivos, quais são alguns deles?
+
+a. EXT2, EXT3, REISERFS, XFS.
+
+
+
+
+A obrigatoriedade de adicionar um usuário do tipo comum faz parte de qual distribuição?
+
+c. Debian.
+
+
+
+
+
+Em qual diretório é possível encontrar arquivos que contêm a documentação dos comandos com base no GNU?
+
+a. /usr/share/doc ou /usr/doc.
+
+
+
+
+
+
+O que é uma distribuição Linux?
+
+b. Conjunto de vários softwares agrupados em mídias.
+
+
+
+
+Quais as distribuições livres atuais?
+
+a. Debian, CentOS, Slackware.
+
+
+
+
+Quais os dois fatores que fazem as empresas optar pelas distribuições corporativas?
+
+a. Disponibilidade de suporte técnico especializado e homologação para instalação.
+
+
+
+
+
+Qual licença defende juridicamente um software livre e mantém as quatro liberdades de uso do sistema operacional? 
+
+b. GLP.
+
+
+
+
+Qual o editor mais utilizado por programadores Linux?
+
+
+d. Vim.
+
+
+
+Qual programa nativo do Linux pode conter ampla documentação de determinados programas e funções?
+
+c. MAN.
+
+
+
+
+
+Analise as afirmações
+I. O Debian, CentOS e Slackware são exemplos de distribuições livres que não visam o lucro.
+II. O Linux Mint, Ubuntu e Kubuntu são sistemas projetados para serem mais amigáveis ao usuário.
+III. O Debian é a distribuição corporativa mais largamente utilizada.
+IV. Algumas vantagens de distribuições corporativas são a disponibilidade de suporte técnico especializado e a homologação.
+V. O manual padrão para consulta de funcionalidades no Linux é denominada "MAN“.
+Assinale a alternativa correta.
+
+a. A afirmação III está incorreta.
+
+
+
+
+
+Analise as afirmações
+I. O comando "man" é utilizado para realizar as mesmas atividades dos comandos apropos e what Is, basicamente.
+II. Juntamente com o comando "man", podem ser utilizados os parâmetros
+"a", "k" e "w".
+III. O comando manpath é utilizado para visualizar características de um arquivo.
+IV. O comando "info" é utilizado para saber detalhes sobre as funções de um comando já conhecido.
+V. É aconselhável utilizar o comando "help" juntamente com o comando “less” ou “more”.
+Assinale a alternativa correta.
+
+
+b. A afirmação III está incorreta.
+
+
+
+
+
+Analise as afirmações
+I. Uma distribuição pode ser caracterizada como um conjunto de softwares agrupados em mídias, com características particulares.
+II. A documentação HowTo refere-se a um procedimento detalhado para realização de uma determinada atividade.
+III. As páginas de manuais já estão inseridas no Linux nativamente para consulta e obtenção auxílio.
+IV. “Whats Is” é utilizado sempre que se sabe o nome do comando, mas não a sua finalidade.
+V. As distros são completamente diferentes entre si, mesmo sendo baseadas no mesmo kernel.
+Assinale a alternativa correta.
+
+e. A afirmação V está incorreta.
+
+
+
+
+
+Analise as afirmações:
+I. A General Public License (GPL), é uma licença que defende juridicamente um software livre.
+II. As 4 liberdades foram um conjunto de características do software livre.
+III. O kernel Linux foi inicialmente baseado nos padrões do Unix.
+IV. Qualquer pessoa pode modificar um software livre e vendê-lo como uma nova distribuição do SO.
+V. Não há restrições quanto ao estudo do kernel Linux, ou seja, ele é livre para ser estudado e modificado.
+Aponte a alternativa correta:
+
+
+a. A afirmação IV está incorreta.
+
+
+
+
+Com o intuito de realizar uma instalação personalizada, é importante saber:
+
+a. Quais serão os serviços que o servidor proverá
+
+
+
+A execução do comando /proc/bus informa o que?
+
+b. Informações específicas do barramento.
+
+
+
+A execução do comando /proc/cpuinfo informa o que? 
+
+a. Informações do processador utilizado (modelo, fabricante etc.).
+
+
+
+
+
+
+A execução do comando /proc/partitions informa o que?
+
+d. Informações do HD e partições.
+
+
+
+
+Na instalação do CentOs, qual a opção deve ser selecionada para definir o nome do computador? 
+
+b. Rede e nome do host.
+
+
+
+
+
+O sistema GNU/Linux reconhece três tipos de usuário, quais são eles?
+
+b. Administrador, sistema e comum.
+
+
+
+
+
+Qual a opção usada para criar a senha do root?
+
+b. Senha raiz.
+
+
+
+
+
+
+Qual o diretório do arquivo de edição do VIM (vimrc) no CentOS?
+
+a. /etc/.
+
+
+
+
+Qual o diretório do arquivo de edição do VIM (vimrc) no Debian?
+
+c. /etc/vim.
+
+
+
+
+
+Qual símbolo do diretório raiz no Linux?
+
+a. /
+
+
+
+
+
+
+
+Analise as afirmaçõesI.
+
+O comando "shutdown" é utilizado para desligar o computador, e suas variações podem determinar o tempo para esta ação ocorrer. 
+
+II. O comando "CP" é utilizado para copiar arquivos de um diretório para outro.
+III. O comando "ifconfig" é utilizado para verificar os processos sendo executados no sistema.
+IV. O comando "sudo" permite a um usuário executar ações a nível de superusuário, sem precisar estar logado como tal.
+V. O comando "CD" é utilizado para renovar o IP de uma estação de trabalho.
+Assinale a alternativa correta.
+
+c. As afirmações III e V estão incorretas.
+
+
+
+
+
+Analise as afirmações
+I. O sistema Linux reconhece três tipos de usuário: "Administrador", "Sistema"
+e "Comum“.
+II. O comando "adduser" é utilizado para identificar alterações de hardware.
+III. Uma das principais características no sistema Linux no que se refere a manutenção dos usuários é a segurança.
+IV. O usuário administrador tem permissões de superusuário (root) e pode efetuar qualquer tipo de operação.
+V. Existem dois diretórios virtuais criados no momento da inicialização do sistema: o /proc e o /sys/.
+Assinale a alternativa correta.
+ 
+
+e. A afirmação II está incorreta.
+
+
+
+
+Analise as afirmações:
+I. O editor de texto VIM é uma evolução do editor VI.
+II. O editor de texto VIM pode ser utilizado de duas formas: “Modo de edição” e “modo de comando”.
+III. File System Hierarchy Standard (FHS) é um padrão para organização de diretórios para todas as distribuições baseadas em Linux.
+IV. Na primeira etapa do processo de boot de um SO Linux são realizados testes na integridade física dos equipamentos.
+V. EXT2, EXT3 e EXT4 são modelos de sistemas de arquivos.
+Assinale a alternativa correta.
+
+
+b. Todas as afirmações estão corretas.
+
+
+
+
+Analise as afirmações:
+I. Todas as instalações de sistemas baseados no kernel Linux serão iguais às mostradas no decorrer do passo a passo anterior.
+II. Não é necessário realizar nenhuma configuração adicional manualmente, pois o sistema configura todas as opções necessárias automaticamente.
+III. Antes de efetuar a instalação do Sistema Operacional, é importante saber quais serão os serviços que o servidor proverá.
+IV. Com base nas funcionalidades a serem utilizadas, poder-se-á customizar as configurações já durante a instalação do sistema.
+Aponte a alternativa correta:
+
+
+c. I e II estão incorretas.
+
+
+
+
+
