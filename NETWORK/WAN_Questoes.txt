@@ -1,0 +1,984 @@
+REDES I - LONGA DISTÂNCIA E ALTO DESEMPENHO
+
+-----------------------------------------------
+
+PERGUNTA:
+O CCITT (Comitê Consultivo Internacional de Telefonia e Telegrafia) criou e padronizou o protocolo X-25 para comunicação de redes WAN (Wide Área Network), que provê o formato de como são estabelecidas e mantidas as conexões entre os equipamentos dos usuários da rede X-25. O protocolo X-25 trabalha com três camadas do modelo OSI, que são:
+
+RESPOSTA:
+Física, de enlace e de rede.
+
+-----------------------------------------------
+
+PERGUNTA:
+O uso das redes X-25 compreende a implementação de pacotes PSN (Packet Switch Network) pelas empresas operadoras de telefonia. Sua forma de cobrança está relacionada ao consumo de banda do usuário. Em 1970, começou a ser desenvolvida a rede X-25, que hoje estabelece conectividade à rede SPDM, rede pública de dados. Quanto à operação dos equipamentos do protocolo X-25, podemos dividir em três tipos de ativos a infraestrutura das redes X-25. Identifique nas alternativas o grupo que compreende esses protocolos:-
+
+RESPOSTA:
+DTE, DCE e PSE.
+
+-----------------------------------------------
+
+PERGUNTA:
+Nas redes X-25, os DTEs, equipamentos terminais de dados e os DCEs, equipamentos de discagem de dados, têm uma função explícita na implementação do protocolo X-25. Identifique nas alternativas essa função: 
+
+RESPOSTA:
+A construção e a desconstrução do PAD.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma função coadjuvante da transmissão de dados na rede X-25 é o PAD (Packet Assembler Disassembler), com o auxílio dos DTEs e dos DCEs promove três funções clássicas, a construção e a desconstrução do PAD, além de uma terceira função que deve ser indicada na alternativa: 
+
+RESPOSTA:
+Bufferização.
+
+-----------------------------------------------
+
+PERGUNTA:
+Invariavelmente, as sessões X-25 são estabelecidas quando o equipamento de usuário terminal contata outro usuário do sistema e ele solicita uma sessão para sua transmissão de dados. Os equipamentos terminais de usuário recebem essa solicitação e podem, nesse momento, aceitar ou recusar a conexão. Assinale a alternativa que representa o formato dessa conexão em sistemas X-25: 
+
+RESPOSTA:
+Full duplex.
+
+-----------------------------------------------
+
+PERGUNTA:
+O PLP é a camada de rede existente no protocolo X-25, ele gerencia a troca de pacotes entre os equipamentos terminais de usuário orientado pelos circuitos virtuais. Ele possui apenas cinco modos de operação disponíveis. Identifique nas alternativas qual modo de operação não faz parte do conceito PLP para redes X-25. 
+
+RESPOSTA:
+Release.
+
+-----------------------------------------------
+
+PERGUNTA:
+O LAP-B é um protocolo de camada 2 (enlace). Essa camada de dados é responsável pelo gerenciamento e pela comunicação entre os equipamentos de terminal de usuário (DTE) e os equipamentos terminais de discagem (DCE) da borda da nuvem. Um dos três tipos de quadros do LAP-B é o quadro supervisor. Identifique nas alternativas qual a principal atribuição desse quadro: 
+
+RESPOSTA:
+Transporta as informações da rede.
+
+-----------------------------------------------
+
+PERGUNTA:
+O quadro LAP-B possui um cabeçalho ( header), dados encapsulados e elementos de demarcação de início e fim. Identifique nas alternativas qual campo não faz parte da formação do quadro LAP-B. 
+
+RESPOSTA:
+TOS.
+
+-----------------------------------------------
+
+PERGUNTA:
+O ponto a ponto é o protocolo da WAN muito popular e abrangente, porque oferece muitos recursos associados a essa tecnologia. Identifique a alternativa que não faz parte desses atributos: 
+
+RESPOSTA:
+Permite a atribuição de criptografia forte dentre seus elementos.
+
+-----------------------------------------------
+
+PERGUNTA:
+As redes ponto a ponto possuem alguns mecanismos que garantem a presença do protocolo de enlace em inúmeras circunstâncias, dentre elas: as fases de mantenimento do protocolo. Identifique dentre as alternativas qual não faz parte das fases de mantenimento das redes ponto a ponto. 
+
+RESPOSTA:
+Retransmissão de pacotes incorretos ou perdidos.
+
+-----------------------------------------------
+
+PERGUNTA:
+O x.25 é um protocolo padrão regulado pela International Telecommunication Union –Telecommunication Standardization Sector (ITU-T) para comunicação WAN (Wide Area Network) que define como são estabelecidas e mantidas as conexões entre os equipamentos dos usuários e a rede.
+O x.25 é usado nas redes de pacotes Packet Switched Network (PSN) das empresas de telefonia. A subscrição é cobrada de acordo com o uso da rede. O desenvolvimento da rede x.25 foi iniciado nos anos 1970 e, atualmente, provê conectividade por meio de rede PDNs (pública data network) e é padronizada pela ITU-T.
+ 
+Considerando as atribuições dos ativos dessa tecnologia, leia estas afirmações:
+ 
+I. DTE são equipamentos finais que comunicam por meio da rede x.25. São, normalmente, terminais, notebooks ou estações de trabalho localizados na rede do usuário x.25 (subscrito na rede).
+II. DCE são equipamentos de comunicação, como modens e switches
+que proveem interface entre o DTE e o PSE.
+III. PSE são switches que compõem a rede do provedor de serviço x.25 e têm a função de permitir a transferência de dados de um DTE para outro por meio da rede PSN x.25. 
+
+RESPOSTA:
+I, II e III.
+
+-----------------------------------------------
+
+PERGUNTA:
+O padrão x.25 foi desenvolvido com o objetivo de oferecer interface entre redes públicas de comutação de pacotes e seus clientes e, apesar de ter sido desenvolvido na década de 1970, ainda hoje é usado. Considerando que o padrão x.25 estabelece circuitos de forma que a entrega dos pacotes seja feita ordenadamente e com confiabilidade, analise as afirmações a seguir.
+ 
+I. O padrão x.25 aceita circuitos virtuais semipermanentes.
+II. O padrão x.25 aceita circuitos virtuais permanentes.
+III. O padrão x.25 aceita circuitos semivirtuais comutados.
+IV. O padrão x.25 aceita circuitos virtuais comutados.
+ 
+É correto apenas o que se afirma em: 
+
+RESPOSTA:
+II e IV.
+
+-----------------------------------------------
+
+PERGUNTA:
+O protocolo de comunicação ponto a ponto foi criado para resolver problemas de conectividade remota com a internet. Além disso, o ponto a ponto era necessário para a atribuição de endereços IP de forma dinâmica e para permitir o uso de vários protocolos. O ponto a ponto fornece conexões de roteador para roteador e conexões de host para rede por circuitos síncronos e assíncronos.
+Usando funções de nível superior, o ponto a ponto suporta ou encapsula vários protocolos da camada de rede usando placas de rede. Avalie a seguir os protocolos dessa camada superior:
+ 
+I. BCP – Bridge Control Protocol.
+II. IPCP – Internet Protocol Control Protocol.
+III. IPXCP – Internetwork Packet Exchange Control Protocol.
+IV. LCP – Link Control Protocol.
+ 
+Determine os protocolos que verdadeiramente fazem parte dessa camada superior: 
+
+RESPOSTA:
+I, II e III.
+
+-----------------------------------------------
+
+PERGUNTA:
+As opções de autenticação suportadas pelo protocolo PPP (Point-to-Point Protocol) são: 
+
+RESPOSTA:
+PAP e CHAP.
+
+-----------------------------------------------
+
+PERGUNTA:
+A tecnologia de rede de comunicação de longa distância frame relay possibilita a transmissão de dados por meio do conceito de frames, em grande velocidade devido à simplicidade do protocolo. A identificação do endereço de destino do frame é representada no cabeçalho do frame por meio do DLCI, que possui o comprimento total, em bits, de:
+
+RESPOSTA:
+10 bits.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma empresa possui escritórios em duas grandes cidades e solicitou ao provedor de frame relay para criar um PVC de 256 Kbps entre os escritórios dessas cidades, suficiente para a aplicação principal. A empresa tem uma porta de 512 Kbps e uma linha telefônica capaz de suportar 512 Kbps. Os escritórios desejam acrescentar uma nova aplicação que precisa de 256 Kbps. Nesse cenário e, em função da nova necessidade da empresa, um engenheiro de redes deve solicitar ao provedor de frame relay:
+
+RESPOSTA:
+Acrescentar um outro PVC de 256 Kbps.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma grande corporação contratou um serviço de frame relay. Três parâmetros que devem ser definidos no contrato para esse serviço são:
+
+RESPOSTA:
+Taxa de transferência contratada, tamanho da rajada e excesso de rajada.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma corporação precisa interligar suas filiais localizadas em lugares distantes, onde não há variadas opções de comunicação de dados. Além disso, é preciso uma solução de comunicação que permita o acesso confiável aos dados corporativos da organização. Nesse contexto, na solução utiliza-se:
+
+RESPOSTA:
+Frame relay, um protocolo orientado à conexão sem controle de erros e sem controle de fluxo.
+
+-----------------------------------------------
+
+PERGUNTA:
+A respeito do protocolo frame relay, analise as afirmativas a seguir.
+ 
+I. Utiliza a tecnologia PVC e SVC para a transferência de dados.
+II. É controlado pela International Telecommunication Union e American National Standards Institute.
+III. É um protocolo de WAN de baixa velocidade de comutação de pacotes.
+ 
+Com a análise das afirmações, assinale a alternativa correta:
+
+RESPOSTA:
+I e II estão corretas.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma corporação estuda a montagem de uma estrutura de rede cujas características envolvam técnica de comutação de quadros efetuada de maneira confiável, com um serviço orientado à conexão que opere na camada nível 2 do modelo OSI/ISO, com baixo retardo e sem controle de erro nos nós. Essa estrutura será implementada segundo os critérios de: 
+
+RESPOSTA:
+Frame relay.
+
+-----------------------------------------------
+
+PERGUNTA:
+O protocolo frame relay apresenta alto desempenho para as redes de longa distância (WAN), fazendo uso do esquema de circuitos virtuais. Há um campo no frame relay que identifica o circuito virtual. Identifique, nas alternativas, o nome do campo mencionado:
+
+RESPOSTA:
+DLCI.
+
+-----------------------------------------------
+
+PERGUNTA:
+O frame relay é um protocolo para a transmissão da informação entre redes de computadores bastante eficiente, graças à sua simplicidade. Considerando o modelo OSI, o frame relay está mapeado apenas na(s) camada(s): 
+
+RESPOSTA:
+Camadas 1, física e 2, enlace.
+
+-----------------------------------------------
+
+PERGUNTA:
+Analise as alternativas e escolha a que mais se adéqua às definições e à aplicabilidade do frame relay: 
+
+RESPOSTA:
+Uma tecnologia de comunicação de dados de alta velocidade utilizada para interligar aplicações em redes.
+
+-----------------------------------------------
+
+PERGUNTA:
+O frame relay é uma rede de circuitos virtuais, na qual cada um dos circuitos é identificado por um número chamado: 
+
+RESPOSTA:
+Data Link Connection Identifier.
+
+-----------------------------------------------
+
+PERGUNTA:
+O Frame-Relay ainda é uma das tecnologias mais difundidas entre as redes privadas no Brasil. Você, como administrador de redes, tem o poder de escolher a tecnologia que ofereça o melhor custo benefício a ser implementada em sua topologia. Para isso, responda à questão abaixo:
+Identifique o grupamento com as características básicas corretas sobre o Frame-Relay: 
+
+
+RESPOSTA:
+- Prover troca bidirecional de frames;
+- Preservar a ordem na transferência de informação;
+- Transportar frames de forma completamente transparente;
+- Grande variedade de taxa de transmissão, podendo chegar até uma velocidade teórica de 45 Mbits/s.
+
+-----------------------------------------------
+
+PERGUNTA:
+Este bit deve ser colocado em “1” pela rede para notificar ao dispositivo destino (por exemplo, um roteador) que esse frame atravessou um congestionamento de tráfego de dados, sendo que tal congestionamento ocorre no mesmo sentido do frame que carregado, estamos falando de:
+
+RESPOSTA:
+Forward Explicit Congestion Notification Bit (FECN).
+
+-----------------------------------------------
+
+PERGUNTA:
+É a taxa (em bps) que a rede aceita transferir informação, em um determinado circuito virtual, “em condições normais de funcionamento”, ou seja, é o throughput (quantidade de informação) garantido pela rede (taxa contratada), estamos falando de: 
+
+RESPOSTA:
+Committed Information Rate (CIR).
+
+-----------------------------------------------
+
+PERGUNTA:
+Na década de 1980, as redes X.25 foram substituídas, em grande parte, por um novo tipo de rede chamado Frame-Relay.
+A essência do Frame-Relay é o fato de ser uma rede orientada a conexões sem controle de erros e nenhum controle de fluxo.
+Por se tratar de uma rede orientada a conexões, os pacotes eram entregues em ordem (quando eram entregues).
+As propriedades de entrega em ordem, nenhum controle de erros e nenhum controle de fluxo tornavam o Frame-Relay semelhante a uma LAN de área extensa.
+
+Assinale a alternativa correta que referencia o intervalo de tempo utilizado para medir taxas ( throughput) e o tamanho das rajadas ( bursts).
+
+RESPOSTA:
+Measurement interval (Tc).
+
+-----------------------------------------------
+
+PERGUNTA:
+O desenvolvimento da tecnologia Spread Spectrum proporcionou a transmissão dos dados via rádio digital com alta confiabilidade e taxas de transmissão cada vez mais altas, ainda possibilitou o seu uso na implementação de redes locais LANs e redes regionais WANs. Das principais vantagens do uso do rádio Spread Spectrum, identifique, nas alternativas, aquela que não se enquadra como vantagem:
+
+RESPOSTA:
+Aplicação de camada 3 (rede) proprietária.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma das características mais interessantes dos rádios de micro-ondas digitais é que eles suportam diversas topologias de instalação, sendo que uma das mais comuns de ligação é a topologia ponto a ponto e as de formato estrela. Das principais vantagens no uso do rádio micro-ondas digital PDH, identifique, entre as alternativas, aquela que não se enquadra como vantagem: 
+
+RESPOSTA:
+Exige licenciamento prévio da Anatel para concessão de frequências.
+
+-----------------------------------------------
+
+PERGUNTA:
+Um satélite de comunicação pode estar situado em uma órbita LEO (órbita baixa), MEO (órbita média) ou GEO (órbita geoestacionária). Cada órbita apresenta características diferentes das demais, sendo que a (assinale a alternativa que melhor representa a relação entre a órbita e os efeitos colaterais da transmissão): 
+
+RESPOSTA:
+LEO apresenta maior efeito Doppler do que a MEO e uma menor atenuação de espaço livre.
+
+-----------------------------------------------
+
+PERGUNTA:
+Atualmente, existem sistemas de satélite operando em faixas das bandas C, Ka e Ku. Cada uma dessas faixas de frequência apresenta diferenças quanto aos fatores que influenciam a propagação do sinal de comunicação. Por exemplo, mantendo-se todas as demais condições inalteradas, o sinal de comunicação em um sistema satélite propagado na banda C apresenta um efeito da (assinale a alternativa que melhor representa os efeitos da banca C):
+
+RESPOSTA:
+Atenuação por chuva menor do que na banda Ka e Ku.
+
+-----------------------------------------------
+
+PERGUNTA:
+Em relação à comunicação por meio de satélites, é correto afirmar que (assinale a alternativa que melhor se enquadre no conceito da comunicação por satélites): 
+
+RESPOSTA:
+O satélite geoestacionário atua como uma estação repetidora dos sinais recebidos da Terra, que são detectados, deslocados em frequência, amplificados e retransmitidos de volta à Terra.
+
+-----------------------------------------------
+
+PERGUNTA:
+Considerando que a comunicação entre determinados grupos de usuários, localizados em diferentes regiões geográficas, seja realizada por meio de transmissão via satélite, assinale a alternativa que não
+se enquadra na questão:
+
+RESPOSTA:
+A comunicação entre os grupos ocorre necessariamente sempre em uma mesma faixa de frequência.
+
+-----------------------------------------------
+
+PERGUNTA:
+Um firewall é, sem dúvida, o mecanismo mais importante que proporciona a conectividade dos usuários de uma corporação para a internet, é apresentado como um software ou um hardware especialista. Assinale a alternativa que melhor se enquadre nesse conceito:
+
+RESPOSTA:
+Serve para implementar a política de acesso de uma rede, de maneira que tem pouca ou nenhuma utilidade em um ambiente em que tal política não esteja definida.
+
+-----------------------------------------------
+
+PERGUNTA:
+Em um passado não muito distante, a terminologia VPN (Redes Virtuais Privadas) estava associada aos serviços de comunicação remota, a redes de telefonia pública comutada ou a circuitos permanentes virtuais das conexões frame relay, porém, nos dias atuais, está associada ao uso das infraestruturas públicas de comunicação, na simulação de redes privadas IP. Sobre uma VPN, assinale a alternativa que melhor se enquadre nesse conceito:
+
+RESPOSTA:
+É uma rede privada que provê a comunicação entre um conjunto de empresas construídas sobre uma rede de comunicação pública.
+
+-----------------------------------------------
+
+PERGUNTA:
+Analise as afirmações e faça uma reflexão:
+I. Uma rede compartilhada em que a informação é separada de outras no mesmo meio, de modo que apenas o destinatário pretendido tenha acesso.
+II. Um conceito arquitetural no qual uma ou mais camadas de protocolo são repetidas, criando uma topologia virtual no topo da topologia física.
+III. Faz uso da infraestrutura pública de comunicações, como a internet, para proporcionar acesso remoto e seguro a uma determinada rede localizada geograficamente distante do local de acesso.
+ 
+As afirmativas remetem a uma tecnologia de rede conhecida por:
+
+RESPOSTA:
+VPN.
+
+-----------------------------------------------
+
+PERGUNTA:
+Nas redes privadas virtuais (Virtual Private Network – VPN):
+
+RESPOSTA:
+A criptografia, base da segurança dos túneis VPN, é utilizada para garantir a autenticidade, o sigilo e a integridade das conexões.
+
+-----------------------------------------------
+
+PERGUNTA:
+O desenvolvimento da tecnologia spread spectrum viabilizou a transmissão de dados via rádio com alta confiabilidade, com taxas de transmissão cada vez mais altas e possibilitou o seu uso na implementação de redes locais (LAN) ou regionais (WAN), trazendo grande mobilidade e flexibilidade para seus usuários. Normalmente, utilizam-se as seguintes capacidades de transmissão nos rádios:
+Backbone, composto de radioenlace
+de alta capacidade, com taxas de transmissão de 140 / 155 Mb (64 canais E1).
+Entroncamentos secundários, compostos de radioenlace de média capacidade, com taxas de transmissão de 16 Mb até 64 Mb (8 canais E1 até 32 canais E1).
+Rádio de acesso (last mile), composto de radioenlace de baixa capacidade, com taxas de transmissão a partir de 2 Mb até 16 Mb (1 canal E1 até 8 canais E1).
+Com base nas informações anteriores, escolha o melhor grupamento das vantagens oferecidas pela tecnologia spread spectrum.
+
+RESPOSTA:
+Baixo custo do equipamento. Não necessita de licença da Anatel. Baixo custo da obra de infraestrutura (base da antena, para-raios). Transparente a protocolos.
+
+-----------------------------------------------
+
+PERGUNTA:
+A transmissão por satélite é vista por muitos como o meio físico supremo, é abrangente e adaptativa, porém, carrega consigo um esforço de implementação e manutenção extraordinário. Identifique nas alternativas a informação correta sobre o posicionamento das órbitas possíveis para os satélites em torno da Terra. 
+
+RESPOSTA:
+Os satélites GEO estão posicionados a 36.000 km.
+
+-----------------------------------------------
+
+PERGUNTA:
+O termo VPN esteve associado no passado a serviços remotos de conectividade, como o da rede de telefonia pública comutada (RTPC) ou os PVCs ( Permanent Virtual Circuits/Chanel) do frame relay, mas hoje já está associado ao uso de infraestruturas públicas de comunicação para simular redes privadas IP. Antes da utilização desse novo conceito de VPN, as corporações gastavam grandes quantias de recursos para montar complexas redes privadas, chamadas intranets, em suas diversas unidades. Essas redes utilizavam serviços caros, como linhas privadas, frame relay e ATM para incorporar filiais à rede interna da companhia. Para escritórios ou usuários móveis eram utilizados servidores de acesso remoto (com modems e linhas de discagem gratuita como o 0800) ou conexões RDSI (Rede Digital de Serviços Integrados).
+Ao mesmo tempo, empresas pequenas ou médias que não tinham recursos para manter conexões dedicadas tão caras utilizavam serviços de comutação de circuito de baixa velocidade.
+Podemos citar como qualidades das VPNs: 
+
+RESPOSTA:
+Baixo custo baseado na grande disponibilidade da internet.
+
+-----------------------------------------------
+
+PERGUNTA:
+Qual elemento faz com que as Redes Privadas Virtuais (VPNs) sejam realmente privadas? Mesmo utilizando a internet (uma rede pública), podemos dizer que estamos na verdade na rede privada da empresa devido à privacidade fornecida por qual elemento? 
+
+RESPOSTA:
+Túnel.
+
+-----------------------------------------------
+
+PERGUNTA:
+À medida que a internet passou a se tornar mais acessível para as pessoas ao redor do mundo e houve o aumento de capacidade de transmissão de dados, muitas empresas e usuários passaram a observar com mais atenção os benefícios da VPN em suas corporações, horas chamadas de extranets, interconectando os usuários internos e externos das companhias; associada ao baixo custo operacional e à grande disponibilidade de internet, a única questão a ser avaliada é a segurança da informação que trafega nesse ambiente. São os principais protocolos utilizados na VPN:
+
+RESPOSTA:
+IPSec, L2TP, L2F e PPTP.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma das maneiras de garantir transações seguras na internet é utilizando Virtual Private Network − VPN, que estabelece uma conexão de rede de dados usando a infraestrutura pública de telecomunicações, mas mantém a privacidade por meio de procedimentos de segurança e protocolos de tunelamento, como: 
+
+RESPOSTA:
+PPTP.
+
+-----------------------------------------------
+
+PERGUNTA:
+Em uma VPN (Virtual Private Network) implementada por meio do IPSec: 
+
+RESPOSTA:
+O frame IP original recebe um cabeçalho de autenticação e o novo frame é criptografado por completo.
+
+-----------------------------------------------
+
+PERGUNTA:
+Acerca da tecnologia das redes digitais de serviços integrados, identifique a alternativa que se ajusta às premissas dessa tecnologia: 
+
+RESPOSTA:
+Permite que sinais digitais possam ser transferidos por um cabeamento telefônico preexistente.
+
+-----------------------------------------------
+
+PERGUNTA:
+Podemos observar as principais vantagens da rede digital de serviços integrados ao propiciar a conectividade digital para as estações locais. Identifique a alternativa que não
+faz parte desse contexto: 
+
+RESPOSTA:
+A rede digital de serviços integrados fornece uma interface proprietária adequada para as aplicações de usuário.
+
+-----------------------------------------------
+
+PERGUNTA:
+Os componentes utilizados na rede digital de serviços integrados incluem os terminais, os adaptadores de terminais, os dispositivos terminadores de rede, os equipamentos determinadores de linha e os equipamentos de determinação da troca. Identifique nas alternativas quais são os tipos existentes para terminais RDSI: 
+
+RESPOSTA:
+TE1 e TE2.
+
+-----------------------------------------------
+
+PERGUNTA:
+A modificação da informação contida nos cabeçalhos de pacotes IP no seu percurso por meio de um roteador é uma descrição do processo conhecido pela sigla:
+
+RESPOSTA:
+IPSec.
+
+-----------------------------------------------
+
+PERGUNTA:
+É uma rede virtual privada que se utiliza de criptografia e tunelamento para garantir segurança e privacidade à comunicação, permitindo a conexão de redes internas ou intranets de uma ou várias empresas: 
+
+RESPOSTA:
+VPN.
+
+-----------------------------------------------
+
+PERGUNTA:
+Assinale a alternativa que não
+apresenta uma característica da VPN.
+
+RESPOSTA:
+Necessita de investimento em infraestrutura própria para implementação do enlace de dados entre os pontos de acesso.
+
+-----------------------------------------------
+
+PERGUNTA:
+A técnica de defesa em profundidade utiliza vários componentes de segurança para formar um perímetro de segurança. O componente capaz de determinar que um ataque de inundação está sendo direcionado a um servidor é o:
+
+RESPOSTA:
+Firewall.
+
+-----------------------------------------------
+
+PERGUNTA:
+Quais são os dois elementos que compõem o campo de cabeçalho L2TP, layer two transfer protocol, em sua versão 3, na aplicação de encriptação de canais VPN?
+
+RESPOSTA:
+ID da sessão e cookie da sessão.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma rede, para ser considerada segura, deve basear-se em uma forte política de segurança, que defina a liberdade de acesso à informação para cada usuário, assim como a localização dos mecanismos de segurança na rede.
+Identifique, nas alternativas, qual elemento de segurança não se enquadra nessa filosofia: 
+
+RESPOSTA:
+Internet.
+
+-----------------------------------------------
+
+PERGUNTA:
+Qual é protocolo usado na camada de enlace das redes digitais de serviços integrados?
+
+RESPOSTA:
+LAPD.
+
+-----------------------------------------------
+
+PERGUNTA:
+Quais os dois protocolos de comunicação mais difundidos pela tecnologia das redes digitais de serviços integrados? 
+
+RESPOSTA:
+HDLC e ponto a ponto.
+
+-----------------------------------------------
+
+PERGUNTA:
+Qual é a rede que provê conectividade digital fim a fim, inclusive no acesso a dois fios, e que permite a convergência de voz, vídeo e imagens utilizando sinalização por circuito de telefonia analógico?
+
+RESPOSTA:
+RDSI faixa estreita sobre circuito.
+
+
+-----------------------------------------------
+
+PERGUNTA:
+O padrão responsável pela tecnologia WiMAX é o:
+
+RESPOSTA:
+IEEE 802.16.
+
+-----------------------------------------------
+
+PERGUNTA:
+O padrão IEEE 802.16 estabelece redes do tipo MAN (Metropolitan Area Network) sem fio, ou seja, WMAN ( Wireless Metropolitan Area Network). Um exemplo prático desse tipo de rede é:
+
+RESPOSTA:
+WiMAX.
+
+-----------------------------------------------
+
+PERGUNTA:
+A tecnologia WiMax foi definida para ser uma rede sem fio de banda larga de alcance metropolitano. As alternativas abaixo estão relacionadas à tecnologia WiMax, exceto:
+
+RESPOSTA:
+O protocolo de acesso ao meio utilizado é o CDMA. Assim, é utilizado um canal para uplink e um outro canal para downlink.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma tecnologia em crescimento na área de computação móvel é a de característica móvel, utilizando tablets e smartphones. Uma tecnologia em uso que permite a troca de informações sem fio. O nome dessa tecnologia é:
+
+RESPOSTA:
+Wimax.
+
+-----------------------------------------------
+
+PERGUNTA:
+O fórum WiMAX foi criado com objetivos distintos para o pleno desenvolvimento da plataforma wireless, entre os objetivos do fórum, identifique o motivo principal de sua existência.
+
+RESPOSTA:
+Criar normas que permitam a plena interoperabilidade entre os produtos.
+
+-----------------------------------------------
+
+PERGUNTA:
+A concorrência com WiMAX, 802,16 depende do tipo ou versão que está sendo usada. Embora inicialmente se pensava que poderia haver uma concorrência significativa com Wi-Fi, existem outras áreas para que o WiMAX esteja se apresentando uma ameaça. Identifique, entre as alternativas, a que melhor se enquadra na questão:
+
+RESPOSTA:
+As linhas de cabos DSL.
+
+-----------------------------------------------
+
+PERGUNTA:
+O padrão WiMAX, 802.16-2004 descreve quatro tipos diferentes de radiofrequência ou interfaces wifi, dependente do aplicativo previsto. Desde o que se destina a aplicações não visadas até 30 km e para frequências abaixo de 11 GHz. Identifique, entre as alternativas, o modelo de referência de camada física empregado no WiMAX.
+
+RESPOSTA:
+OFDM.
+
+-----------------------------------------------
+
+PERGUNTA:
+A camada Mac WiMAX é uma camada de protocolo de comunicação de dados de controle de acesso de mídia e também pode ser conhecida como uma camada de controle de acesso médio. Identifique, entre as alternativas, qual é a técnica de camada 2 que fornece as capacidades ponto a multiponto do WiMAX:
+
+RESPOSTA:
+CSMA/CA.
+
+-----------------------------------------------
+
+PERGUNTA:
+Na pilha de protocolos WiMAX existe uma camada adicional entre a camada Mac WiMAX e as camadas superiores. Identifique, entre as alternativas, esta camada: 
+
+RESPOSTA:
+Subcamada de convergência MAC.
+
+-----------------------------------------------
+
+PERGUNTA:
+Das funções que são oferecidas aos usuários das Redes Digitais de Serviços Integrados, existem dois serviços que são oferecidos, que proporcionam a flexibilidade de banda, que são aplicados às mais diversas aplicações. Identifique a alternativa que relaciona estes serviços: 
+
+RESPOSTA:
+BRI e PRI.
+
+-----------------------------------------------
+
+PERGUNTA:
+A tecnologia WiMAX usa algumas tecnologias-chave para permitir que ele forneça as taxas de dados de alta velocidade sob meio sem fio. Identifique, nas alternativas a seguir, qual se refere a tal tecnologia: 
+
+RESPOSTA:
+OFDM.
+
+-----------------------------------------------
+
+PERGUNTA:
+A tecnologia MIMO possui limitações relacionadas aos seus canais de comunicação. Identifique, entre as alternativas a seguir, uma destas limitações: 
+
+RESPOSTA:
+A tecnologia MIMO possui limitações de largura de banda como resultado da lei de Shannon.
+
+-----------------------------------------------
+
+PERGUNTA:
+O WiMAX usa o identificador de conexão MAC antes que qualquer dado seja transferido por meio de um link WiMAX. Entre as alternativas a seguir, identifique o nome deste identificador usado nesta tecnologia: 
+
+RESPOSTA:
+CID.
+
+-----------------------------------------------
+
+PERGUNTA:
+Os elementos de segurança do WiMAX estão incluídos no padrão original e recaem sobre múltiplos elementos. Identifique, nas alternativas, qual elemento não faz parte deste desenvolvimento de segurança:
+
+RESPOSTA:
+Implementação da multiplexação por divisão de código.
+
+-----------------------------------------------
+
+PERGUNTA:
+Em relação à multiplexação, modulação e transmissão de sinais, é correto afirmar que:
+
+RESPOSTA:
+Na transmissão de sinais em banda básica, todo o espectro de frequência é utilizado para produzir o sinal, que é colocado no meio sem qualquer tipo de modulação.
+
+
+-----------------------------------------------
+
+PERGUNTA:
+Quando surgiram os primeiros esquemas baseados em TDM síncrono para telefonia digital, apareceram também novos esquemas de sinalização. Em um esquema baseado no E1, por exemplo, pode-se definir uma estrutura chamada de multiquadro, que é composta por uma sequência de 16 quadros (frames ou ciclos do TDM), de forma que os oito bits do canal 16 de cada quadro são utilizados para a sinalização de dois canais daquele quadro (4 bits para cada canal). No primeiro quadro do multiquadro, a sinalização é relativa aos canais 1 e 17; no segundo, aos canais 2 e 18; e assim sucessivamente. Note-se, então, que as informações de sinalização trafegam em canais previamente associados a canais de informação específicos.
+Identifique, entre as alternativas, a opção correta. Esse tipo de sinalização é denominado:
+
+RESPOSTA:
+Sinalização por canal associado.
+
+-----------------------------------------------
+
+PERGUNTA:
+O padrão SDH da ITU-T é baseado em um esquema de TDM:
+
+RESPOSTA:
+Síncrono.
+
+-----------------------------------------------
+
+PERGUNTA:
+O Padrão SDH foi desenvolvido usando uma abordagem cliente-servidor. Nessa condição, um VC-3 mapeando diretamente um tributário PDH E-3, ocorre na camada: 
+
+RESPOSTA:
+Via de Baixa Ordem.
+
+-----------------------------------------------
+
+PERGUNTA:
+Pela nomenclatura utilizada nas normas da ITU-T relativas ao SDH, uma Unidade Administrativa nível n ( Administrative Unit-n ou AU-n) é uma estrutura de informação que permite a adaptação entre a camada de caminho ( pathlayer) e a camada de seção de multiplexação ( multiplexsection layer). A AU-n é composta por:
+
+RESPOSTA:
+Uma carga de informação (information payload) e um ponteiro de unidade administrativa (AU pointer).
+
+-----------------------------------------------
+
+PERGUNTA:
+A Hierarquia Digital Síncrona (SDH) surgiu para unificar e solucionar alguns problemas das hierarquias americana, europeia e japonesa, as quais são denominadas Hierarquias Digitais Plesiócronas (PDH). Um desses problemas refere-se à necessidade de controle mais efetivo e gerenciamento mais abrangente da rede. Sobre a capacidade de gerenciamento de redes SDH, considere as afirmativas a seguir:
+I. Uma rede SDH realiza um gerenciamento unificado, liberando as camadas da SDH de funções específicas de gerenciamento.
+II. Uma rede SDH coleta dados estatísticos para prover informações sobre o desempenho dos elementos de rede e da qualidade dos serviços oferecidos pela rede.
+III. Uma rede SDH realiza detecção, localização e correção de falhas relacionadas à rede e aos equipamentos.
+É correto o que se afirma em:
+
+RESPOSTA:
+I, II e III.
+
+-----------------------------------------------
+
+PERGUNTA:
+A técnica de multiplexação especificamente desenvolvida para as fibras ópticas é:
+
+RESPOSTA:
+WDM.
+
+-----------------------------------------------
+
+PERGUNTA:
+Sobre as redes do padrão IEEE 802.16 (WiMax), tem-se que a(o):
+
+RESPOSTA:
+Camada MAC é orientada à conexão.
+
+-----------------------------------------------
+
+PERGUNTA:
+A evolução para o SDH ( Synchronous Digital Hierarchy) proporcionou inúmeros benefícios, além de manter a compatibilidade com o sistema de transmissão precursor, o PDH. Esta compatibilidade foi possível, entre outros aspectos, devido à manutenção: 
+
+RESPOSTA:
+Da taxa de amostragem em 8.000 amostras por segundo.
+
+-----------------------------------------------
+
+PERGUNTA:
+A arquitetura de rede WiMAX é composta por três principais elementos ou áreas. Identifique, entre as alternativas, um desses elementos: 
+
+RESPOSTA:
+Rede de serviços de acesso, ASN.
+
+-----------------------------------------------
+
+PERGUNTA:
+Dentre as características da técnica de multiplexação TDM (multiplexação por divisão de tempo), identifique, entre as alternativas, qual não pertence a esse grupo:
+
+RESPOSTA:
+É pouco eficiente (exige muita banda de resguardo).
+
+
+-----------------------------------------------
+
+PERGUNTA:
+A respeito dos sistemas de transmissão PDH e SDH, analise as afirmativas a seguir:
+ 
+I. O padrão PDH de transmissão de sinais foi concebido para uma arquitetura de multiplexação assíncrona;
+II. O padrão SDH de transmissão possui cada canal operando com um relógio sincronizado com os relógios dos outros canais;
+III. O sinal PDH transporta os diferentes tipos de sinais PDH, desde que o sinal seja óptico. 
+
+RESPOSTA:
+I e II, apenas.
+
+-----------------------------------------------
+
+PERGUNTA:
+A Hierarquia Digital Síncrona (SDH) surgiu para unificar e solucionar alguns problemas das hierarquias americana, europeia e japonesa, as quais são denominadas como Hierarquias Digitais Plesiócronas (PDH). Um desses problemas refere-se à necessidade de controle mais efetivo e ao gerenciamento mais abrangente da rede.
+ 
+Sobre a capacidade de gerenciamento de redes SDH, considere as afirmativas a seguir:
+ 
+I. Uma rede SDH realiza um gerenciamento unificado, liberando
+as camadas da SDH de funções específicas de gerenciamento.
+II. Uma rede SDH coleta os dados estatísticos para prover as informações sobre o desempenho dos elementos de rede e da qualidade dos serviços oferecidos pela rede.
+III. Uma rede SDH realiza a detecção, a localização e a correção de falhas relacionadas à rede e aos equipamentos. 
+
+
+RESPOSTA:
+II e III, apenas.
+
+-----------------------------------------------
+
+PERGUNTA:
+Com relação ao Modo de Transmissão Assíncrono (ATM), assinale a alternativa correta:
+
+RESPOSTA:
+O identificador de caminho virtual (VPI) permite a identificação do canal lógico em uma conexão ATM.
+
+-----------------------------------------------
+
+PERGUNTA:
+Considerando a pilha de protocolos ATM, qual é a camada de adaptação (AAL) responsável pelo transporte de voz comprimida? 
+
+RESPOSTA:
+AAL-1.
+
+-----------------------------------------------
+
+PERGUNTA:
+A comunicação entre duas redes locais (LAN) localizadas à uma distância de 300 km é feita por meio de uma rede ampla (WAN) utilizando a tecnologia ATM que apresenta baixa latência. Nessa tecnologia, o pacote ou a célula possui um tamanho fixo com o campo de dados ( payload) do tamanho, em bytes, de:
+
+RESPOSTA:
+48 bytes.
+
+-----------------------------------------------
+
+PERGUNTA:
+Em relação ao uso da tecnologia ATM em redes locais (LAN), avalie as alternativas:
+
+RESPOSTA:
+Na arquitetura ATM pura, as estações utilizam identificadores de rota virtual (VPI) e de circuito virtual (VCI), em vez de endereços de origem e de destino.
+
+-----------------------------------------------
+
+PERGUNTA:
+Nas redes que usam Asynchronous Transfer Mode (ATM), os dados são enviados em pequenos pacotes chamados de células, com tamanho de: 
+
+RESPOSTA:
+53 bytes.
+
+-----------------------------------------------
+
+PERGUNTA:
+A tecnologia ATM é conhecida como sendo baseada em comutação por células. Essa denominação é originária de uma das principais características do ATM, que é a de ser uma tecnologia baseada em comutação por: 
+
+RESPOSTA:
+Pacotes, baseada em circuito virtual, na qual pequenos pacotes, chamados de células, são utilizados como unidades de informação para o encaminhamento rápido, usando um rótulo contido no cabeçalho de cada uma dessas células.
+
+-----------------------------------------------
+
+PERGUNTA:
+Uma tecnologia de comunicação de dados de alta velocidade usada para interligar as redes locais, metropolitanas e de longa distância para as aplicações de dados, voz, áudio e vídeo, cuja célula contém 48 bytes destinados à informação útil e 5 bytes para o cabeçalho é: 
+
+RESPOSTA:
+ATM.
+
+-----------------------------------------------
+
+PERGUNTA:
+Com relação às técnicas de comutação, analise as afirmativas a seguir:
+I. ATM é uma tecnologia de comutação por células;
+II. Frame Relay é uma tecnologia de comutação por pacotes;
+III. A rede de telefonia tradicional utiliza uma tecnologia de comutação por pacotes. 
+
+RESPOSTA:
+Somente as afirmativas I e II estão corretas.
+
+-----------------------------------------------
+
+PERGUNTA:
+A tecnologia de comunicação de dados ATM é baseada na técnica de comutação de: 
+
+RESPOSTA:
+Pacotes de alta velocidade, que utiliza pacotes curtos e de tamanho fixo, chamados de células, e é orientada à conexão.
+
+-----------------------------------------------
+
+PERGUNTA:
+A camada do modelo de referência ATM, que permite aos usuários enviarem pacotes maiores que uma célula, é denominada de: 
+
+RESPOSTA:
+Camada de Adaptação ATM.
+
+-----------------------------------------------
+
+PERGUNTA:
+Sobre o ATM – Asynchronous Transfer Mode, é correto afirmar: 
+
+RESPOSTA:
+Elimina os atrasos variáveis associados a pacotes de tamanhos diferentes e é capaz de lidar com transmissão em tempo real.
+
+-----------------------------------------------
+
+PERGUNTA:
+Para a tecnologia ATM, podemos afirmar que: 
+
+RESPOSTA:
+As mensagens são células de tamanhos fixos para serem encaminhadas por toda rede ATM.
+
+-----------------------------------------------
+
+PERGUNTA:
+A camada do modelo de referência ATM que permite aos usuários enviarem pacotes maiores que uma célula é denominada:
+
+RESPOSTA:
+Camada de Adaptação ATM.
+
+-----------------------------------------------
+
+PERGUNTA:
+O modelo ATM tem seu próprio modelo de referência e quem lida com células e com o transporte de células é a: 
+
+RESPOSTA:
+Camada ATM.
+
+-----------------------------------------------
+
+PERGUNTA:
+Identifique a tecnologia de rede pública que utiliza para os circuitos virtuais a comutação de tags:
+
+RESPOSTA:
+MPLS.
+
+-----------------------------------------------
+
+PERGUNTA:
+Qual é o protocolo de sinalização utilizado na arquitetura MPLS?
+
+RESPOSTA:
+Label Distribuiton Protocol (LDP).
+
+-----------------------------------------------
+
+PERGUNTA:
+Sobre os componentes de uma rede MPLS, é correto afirmar:
+
+RESPOSTA:
+O FEC (Forwarding Equivalency Class) caracteriza um grupo de pacotes de nível 3 que são tratados da mesma maneira; todos os pacotes seguem o mesmo caminho e têm a mesma prioridade.
+
+-----------------------------------------------
+
+PERGUNTA:
+A rede MPLS se distingue de tecnologias WAN tradicionais por utilizar uma pilha de rótulos anexada aos pacotes. Nesse contexto, é incorreto afirmar que:
+
+RESPOSTA:
+Os roteadores analisam os rótulos juntamente com os cabeçalhos para poderem encaminhar os pacotes.
+
+-----------------------------------------------
+
+PERGUNTA:
+O MPLS tem conquistado a preferência de muitas empresas, porque: 
+
+RESPOSTA:
+Apresenta bom desempenho na construção de VPNs.
+
+-----------------------------------------------
+
+PERGUNTA:
+Com relação à tecnologia MPLS de encaminhamento de pacotes, são feitas as seguintes afirmativas:
+I – O sistema de encaminhamento do MPLS é baseado em um algoritmo de troca de rótulo durante o encaminhamento.
+II – Os pacotes podem ser atribuídos às FECs (Forwarding Equivalence Class) de acordo com suas fontes e destino, requerimentos de QoS, e outros parâmetros, o que torna as redes com MPLS flexíveis.
+III – O MPLS suporta rotas explícitas que possuem performance superior à rota original do IP e fornece, também, uma parte da funcionalidade necessária à engenharia de tráfego.
+Está correta a alternativa:
+
+RESPOSTA:
+I, II e III.
+
+-----------------------------------------------
+
+PERGUNTA:
+Para interligar várias localidades remotas, determinado órgão público contratou um serviço de comunicação de dados que consiste em uma nuvem MPLS, formada por vários comutadores. Essa tecnologia:
+
+RESPOSTA:
+Permite agregação de tráfego, além de suportar as arquiteturas de IP QoS como o IntServ e DiffServ.
+
+-----------------------------------------------
+
+PERGUNTA:
+Em relação ao MPLS, é incorreto afirmar que:
+
+RESPOSTA:
+Beneficia-se das consultas às tabelas de routing.
+
+-----------------------------------------------
+
+PERGUNTA:
+Quanto às características e aplicações, as fibras são classificadas como: 
+
+RESPOSTA:
+Multimodo, apresentam o efeito de dispersão modal.
+
+-----------------------------------------------
+
+PERGUNTA:
+A grande largura de banda das fibras ópticas permite atender, simultaneamente, às demandas de transmissão de dados de vários assinantes de um determinado sistema de comunicação.
+A técnica de multiplexação especificamente desenvolvida para as fibras ópticas é:
+
+RESPOSTA:
+WDM.
+
+-----------------------------------------------
+
+PERGUNTA:
+Com relação à tecnologia MPLS, analise as afirmativas a seguir.
+I. É uma tecnologia WAN, que se encaixa na camada de transporte do modelo OSI.
+II. Para determinar o encaminhamento dos pacotes, rótulos de enlaces virtuais são adicionados a eles.
+III. Assim como no protocolo IP, o MPLS introduz um campo TTL para evitar que o pacote fique em loop eternamente na rede.
+Está correto somente o que se afirma em:
+
+RESPOSTA:
+II e III.
+
+-----------------------------------------------
+
+PERGUNTA:
+Em relação ao MPLS, é incorreto afirmar que: 
+
+RESPOSTA:
+Se beneficia das consultas às tabelas de roteamento.
+
+-----------------------------------------------
+
+PERGUNTA:
+O MPLS tem conquistado a preferência de muitas empresas, pois: 
+
+RESPOSTA:
+Apresenta bom desempenho na construção de VPNs.
+
+-----------------------------------------------
+PERGUNTA:
+FSO é uma tecnologia de transmissão ótica ideal para rápidas implementações, com alto grau de eficiência e adaptável a regiões de alta densidade demográfica.
+Analise as alternativas a seguir e identifique a que se refere à tecnologia FSO:
+
+RESPOSTA:
+Não requer licenciamento (Anatel) prévio.
