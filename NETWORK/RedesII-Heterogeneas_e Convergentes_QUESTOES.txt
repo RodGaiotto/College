@@ -1,0 +1,255 @@
+REDES HETEROGENEAS E CONVERGENTES:
+
+
+
+Um serviço de tripla mudança significa que o consumidor pode acessar e controlar, como pausar, rodar, voltar e avançar rapidamente os conteúdos dos serviços a qualquer tempo, a qualquer lugar e usando algum dispositivo.
+
+
+------------------------------------------------------------------------
+
+
+Um dos elementos de uma comutação por circuitos é a central de comutação. Marque V se a função a seguir é da central de comutação ou F se não for.
+- Fazer a conexão entre os canais de comunicação dos assinantes da rede;
+- Enviar sinais audíveis de chamada para assinante que realiza a chamada e para assinante a ser chamado (sinalização de assinante);
+
+--------------------------------------------
+
+
+No fim do século passado, a receita das operadoras de telefonia era na maior parte proveniente de Telefonia fixa . Desde o início dos anos 2000, houve um acentuado crescimento nos serviços de dados como e-mail, www, e-commerce em detrimento dos serviços de voz .
+
+
+---------------------------------------------
+
+Nas Redes de Nova Geração (NGN) , houve uma mudança de paradigma em relação à Qualidade de Serviço. (QoS), passando-se de redes de dados de Menor esforço  para alta qualidade e tempo real.
+
+
+---------------------------------------------
+
+Na comutação de circuitos, a rede pode rejeitar uma solicitação do usuário. 
+
+-------------------------------------------
+
+Em relação à história das redes de telecomunicações, considere as seguintes afirmações:
+
+- A primeira rede de computadores foi denominada Arpanet e foi iniciada na década de 1960.
+- O telégrafo foi o meio de comunicação a distância mais utilizado no fim do século XIX. 
+
+------------------------------------------
+
+
+
+Em relação à comutação de circuitos, assinale a alternativa correta.
+
+Existem três fases: estabelecimento do circuito utilizado na chamada, transferência de informações e desconexão do circuito. 
+
+
+------------------------------------------
+
+Considere as seguintes tecnologias. Quais dessas tecnologias se referem a redes convergentes?
+
+- Video on Demand (VoD).
+- Videoconferência via desktop.
+- Voz sobre IP (VoIP).
+
+-------------------------------------------
+
+Considere as características de redes a seguir. Assinale a alternativa correta:
+
+- Redução de custo em relação a redes exclusivas;
+- Compartilhamento de recursos;
+
+-----------------------------------------
+
+Antes das redes convergentes, existiam redes diferentes para transmitir voz, dados e imagem. Assinale a alternativa que contém um motivo para esse fato. 
+
+Por não existir uma tecnologia economicamente viável que permitisse a operação em um único meio.
+
+-----------------------------------------
+
+Uma rede MPLS inclui um rótulo ao pacote IP, de forma a permitir que este pacote trafegue com maior segurança, melhorando a qualidade de serviço em relação à rede IP.
+
+----------------------------------------
+
+Um diferencial da arquitetura NGN é a divisão em camadas. A arquitetura decompõe os elementos de rede em quatro camadas funcionais. Quais são as quatros camadas?
+
+Camada de Acesso, Camada de Núcleo de Rede, Camada de Controle, Camada de Serviços.
+
+-----------------------------------------
+
+Sobre o gerenciamento de contabilização, considere as seguintes afirmações:
+
+- As tarefas associadas são: gestão de contas de usuários; identificação dos custos de usuário; e tarifação e faturamento.
+- Um dos benefícios desse gerenciamento é o auxílio nas análises de desempenho, pois são verificados os usuários com acessos privilegiados que sobrecarregam o tráfego da rede.
+
+---------------------------------------------
+
+Sobre a rede MPLS, considere as seguintes afirmações:
+
+- Os pacotes recebem um rótulo (label), que somente será aberto no destino.
+- As redes MPLS possuem uma segurança superior a uma rede IP comum.
+
+---------------------------------------------
+
+Qual a área de gerenciamento responsável pelo registro da utilização de serviços e recursos de rede com o objetivo de criar um registro de faturamento?
+
+Gerenciamento de contabilização
+
+----------------------------------------------
+
+O Multiprotocol Label Switching (MPLS) foi padronizado para resolver uma série de problemas das redes IP. Assinale a alternativa com os problemas resolvidos.
+
+Possibilitar a utilização de switches; escalabilidade; adicionar novas funcionalidades ao roteamento.
+
+----------------------------------------------
+
+Em uma rede NGN existem diversos gateways. Um desses elementos controla os demais elementos, sendo considerado o cérebro da rede NGN. Qual o elemento central de uma rede NGN? 
+
+Softswitches.
+
+-------------------------------------
+
+Em relação a redes NGN, assinale a alternativa correta.
+
+As funções de transporte residem no Estrato de Transporte e as funções relacionadas a aplicações residem no Estrato Serviço
+
+-------------------------------------
+
+Considere as seguintes afirmações sobre redes IP e MPLS:
+As redes MPLS foram criadas visando à otimização de níveis de desempenho de uma rede IP
+ 
+PORQUE
+ 
+Com a integração de redes de voz, dados e imagem, foi necessária a definição de níveis de serviço mínimos desejados para cada tipo de aplicação e garantir que as redes mantivessem esse padrão mínimo de QoS.
+
+----------------------------------------
+
+Um dos requisitos de qualidade de serviço é chamado de jitter. Assinale a alternativa que conceitua jitter.
+
+É a variação do intervalo de chegada entre pacotes.
+
+----------------------------------------
+
+Sobre as tecnologias de QoS, considere as afirmações:
+
+- Melhor esforço é o tipo mais simples de serviço que uma rede pode oferecer, em que todos os pacotes são tratados da mesma forma.
+- Na tecnologia de serviços integrados, há alocação prévia de recursos, mas não há priorização de serviços e nem roteamento pré-definido.
+
+----------------------------------------
+
+Os métodos de qualidade de serviços (QoS) são fundamentais em redes de comutação por pacote, pois diversas aplicações, como a telefonia IP, a educação interativa a distância e a transmissão de vídeo e áudio, possuem requisitos que, se não cumpridos, degradam a integridade do sinal para o receptor. Quais os três grupos de métodos de QoS? 
+
+Atrasos dos pacotes, perda dos pacotes, taxa de informações.
+
+----------------------------------------
+
+Existem três tipos de atrasos ou delays que são inerentes às redes de telefonia fixa: delay de propagação, delay de serialização e delay de tratamento. Em uma rede VoIP, quais serão os tipos de atraso?
+
+Atrasos de propagação, atraso de processamento, atraso de fila.
+
+-------------------------------
+
+Existem diferentes técnicas de qualidade de serviço para redes convergentes. Uma das técnicas utiliza uma combinação de controle nas periferias da rede para provisão de recursos de banda e priorização de tráfego. Entretanto, não há um roteamento pré-definido. Qual o nome dessa técnica de QoS?
+
+Serviços diferenciados.
+
+-------------------------------
+
+Em uma dada rede de computadores existe o objetivo de diminuição do nível atual de atrasos, buscando um aumento na QoS, isto é, na qualidade de serviço. Considerando esse cenário, assinale a alternativa correta.
+
+É preciso uma redução das rajadas para que ocorra uma maior uniformização do fluxo.
+
+-------------------------------
+
+Em relação aos serviços de VoIP das diferentes classes, considere as afirmações:
+
+- Na Classe 1 há oferta de programa de computador que possibilite a comunicação VoIP entre dois computadores.
+- A classe 2 permite a utilização de comunicação VoIP em rede corporativa.
+- A classe 3 faz uso de comunicação VoIP, com numeração fornecida pela Anatel. 
+
+-------------------------------
+
+Em relação aos serviços VoIP de classe 2, considere as afirmações:
+
+- Os serviços prestados visam atender os clientes corporativos.
+
+--------------------------------
+
+Em relação à voz sobre IP, considere as afirmações:
+
+- O modelo de comutação de circuitos se transformou em um novo modelo de comutação por pacotes, pelo qual existem padrões abertos entre todas as três camadas.
+
+-----------------------------------
+
+Em relação à sensibilidade da aplicação a atrasos de pacotes, considere as afirmações.
+
+- Um tipo de aplicação assíncrona é o e-mail, no qual limite de atraso de tempo é bastante elevado.
+- Aplicações isócronas possuem um limite de sensibilidade para variações desse atraso. Caso for excedido o limite, a funcionalidade da aplicação é drasticamente penalizada, como a transmissão de voz.
+
+-------------------------------------
+
+Um dos protocolos de mídia é o RTCP. Qual a função desse protocolo? 
+
+Controle de entrega entre origem e destino, sendo uma parte do controle de QoS. 
+
+-------------------------------------
+
+Tanto o transporte de Voz sobre Frame Relay quanto o de Voz sobre IP fazem parte de uma tecnologia genérica que chamamos de Voz sobre pacotes. Esse nome é usado com o objetivo de distinguir essa aplicação da antiga tecnologia de Multiplexação por divisão de tempo (TDM).
+
+-------------------------------------
+
+
+Sobre os protocolos de VoIP, considere as afirmações:
+
+- Os protocolos estão na camada aplicação e podem ser divididos em Sinalização, Controle de Gateway e Mídia (voz).
+
+- O protocolo H.323 contempla diversos padrões, como H.225.0 (RAS) e H.450.X, e é um protocolo de sinalização.
+
+
+-------------------------------------
+
+Sobre a tecnologia de ATM e da VoATM, assinale a alternativa correta.
+
+As células possuem um tamanho fixo e relativamente pequeno (53 bytes).
+
+-------------------------------------
+
+Existem diversos protocolos de aplicação que participam dos processos de Sinalização, Controle de Gateway e Mídia (Voz) para sistemas VoIP.
+Assinale a alternativa que contém somente protocolos de controle de Gateway.
+
+MGCP e MeGaCo.
+
+---------------------------------
+
+Em relação ao protocolo de Transporte em Tempo Real, RTP, utilizado em aplicações VoIP, assinale a alternativa correta. 
+
+O papel principal do RTP consiste em aplicar números de sequência de pacotes IP para reconstituir as informações de voz ou de vídeo.
+
+---------------------------------
+
+Em relação ao protocolo Session Initiation Protocol (SIP), considere as seguintes afirmações:
+
+- O SIP é um protocolo cliente-servidor transportado sobre TCP ou UDP, mas preferencialmente UDP. 
+- Um sistema SIP é composto por agentes de usuário, User Agents (UA) e um ou mais servidores. 
+
+----------------------------------
+
+
+Em relação à Voz sobre Frame Relay (VoFR), considere as seguintes afirmações:
+
+- VoFR não pode ser implementado sobre LAN’s ou até o desktop.
+- A utilização de aplicações baseadas em VoFR auxilia na redução dos custos com as ligações telefônicas, comunicação entre os escritórios remotos de uma empresa, videoconferência, entre outros.
+
+-----------------------------------
+
+Existe interoperabilidade entre diversas redes.
+
+PORQUE
+
+É possível estabelecer conferências entre participantes localizados numa LAN e em outras redes completamente diferentes.
+
+----------------------------------
+
+Comparando-se às tecnologias VoIP, VoATM e VoFRM, assinale a alternativa correta.
+
+VoATM implementa mecanismos de QoS. 
+
