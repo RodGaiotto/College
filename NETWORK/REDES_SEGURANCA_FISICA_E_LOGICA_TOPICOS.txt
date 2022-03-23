@@ -1,0 +1,650 @@
+SEGURANÇA FÍSICA E LÓGICA DE REDES:
+
+
+Dentro do processo de autenticação segura na ótica das três esferas ou instâncias de autenticação, a autorização de acesso tem como função determinar os diversos serviços que o usuário pode acessar na rede.
+
+I- Quando utilizamos o método de autorização por serviços de diretórios estamos utilizando repositórios de informações sobre diversos ativos, geralmente de TI, armazenados de maneira centralizada com o propósito de permitir o seu compartilhamento.
+
+II- Quanto utilizamos a autorização por SSO (single sign-on), simplificamos o processo de logon dos usuários, permitindo que, após uma única autenticação, o usuário possa acessar todos os recursos que tem direito sem a necessidade de repetir o processo.
+
+III- O processo de autorização por AMS (Acccount Management Systems) utiliza a criação de alocação por função, e não por diretórios, através dos sistemas de gerência de identidades.
+
+---------------------------------------
+
+O processo de auditoria é um componente fundamental para os sistemas de autenticação em redes.
+
+I- Revisar e avaliar todo o processo de construção de sistemas de informação. Tem como característica a prevenção.
+
+II- A auditoria para eventos específicos abrange a análise da causa, da consequência e da ação corretiva cabível de eventos específicos e localizados, detectado por outros órgãos e levados para seu conhecimento, tem característica corretiva.
+
+III- O ciclo de auditoria inicia com o processo de auditoria de posição, no qual são diagnosticados “como a organização está atuando em relação aos controles definidos”. Após a avaliação dos pontos de controle, são selecionados e testados onde são verificadas suas fraquezas, caso possuam fraquezas, os pontos de controle se tornam pontos de auditoria que devem ser avaliados.
+
+IV- O inventário de pontos de controle identifica os diversos pontos que poderão vir a ser avaliados pelo auditor e que podem agrupar-se através de processos informatizados, processos manuais e resultados de processamento.
+
+----------------------------------------
+
+O que é biometria? Qual a sua importância para o processo de autenticação em sistemas, informações e redes?
+
+A biometria é a ciência que estuda a mensuração dos seres humanos, medindo as diferenças únicas e biológicas entre eles. A biometria transforma alguma característica, seja ela física ou comportamental, em métricas que podem tornar o ser humano único e, dessa forma, utiliza essa unicidade em mecanismos de segurança no acesso. 
+
+-----------------------------------------
+
+Os processos de autorização de acesso às informações dispostas nas redes corporativas devem ser bem administrados e gerenciados para evitar acessos não desejados, dessa forma, é correto afirmar sobre as técnicas de restrição de acesso às informações:
+
+I- É viável alocar o mínimo possível de permissões para que o usuário execute suas atividades.
+
+II- Sempre devem ser checados se os privilégios condizem com as atividades atuais do usuário.
+
+III- Evitar registrar tentativas de acessos indevidos.
+
+-----------------------------------------
+
+Quando colocamos em prática as soluções AAA, percebemos o quanto elas são fundamentais para a segurança dos sistemas de autenticação em redes, dessa maneira, soluções são desenvolvidas para dar maior eficácia ao processo. Podemos exemplificar essas soluções através dos protocolos RADIUS e Kerberos. É correto afirmar, sobre a aplicação prática desses protocolos de autenticação, que:
+
+I- O protocolo RADIUS foi criado na metade dos anos 90 e foi padronizado em 96 através da RFC 2139. Tem como principal característica o conceito de cliente/servidor.
+II- O protocolo Kerberos utiliza um processo de requisição de tíquete criptografado para autenticação que serve como uma requisição em particular de um servidor. Nesse processo, o tíquete é enviado pela rede, e não a senha do usuário.
+III- O RADIUS pode servir de proxy para autenticação em outros RADIUS. Toda a comunicação ocorre com uma chave secreta, ou seja, os dados são criptografados para evitar acesso indevido.
+
+--------------------------------------------
+
+Quando digo que minha rede utiliza duplo fator de autenticação através de um token e pela leitura da digital, estou me referindo, respectivamente, aos fatores de autenticação: 
+
+Pelo que “você tem” e pelo que “você é”.
+
+--------------------------------------------
+
+São exemplos corretos de políticas e boas práticas na elaboração das senhas de acesso a sistemas e informações:
+
+I- As contas devem ser bloqueadas após três tentativas sem êxito.
+II- Deve-se utilizar sistemas que criptografem as senhas antes do envio pelas redes.
+
+-------------------------------------------
+
+A autenticação é o processo de determinar se alguma pessoa ou algo é realmente quem diz ser. Dessa forma, podemos afirmar sobre os sistemas de autenticação:
+
+I- Para melhor eficiência do processo de autenticação, deve ser executada para confirmar o acesso do usuário, em três esferas ou instâncias, a chamada triple A.
+II- Os sistemas de autenticação podem ser eficazes quando verifica-se, de forma clara e objetiva, se o acesso é Autêntico, Autorizado e Auditado.
+
+-------------------------------------------
+
+Sobre o processo de auditoria para gestão de acessos à rede, é correto afirmar que:
+
+I- Os pontos de controle de um processo de auditoria demonstram uma situação levantada que merece ser validada pela auditoria segundo determinados parâmetros de controle interno.
+II- Os Logs são importantes para a segurança da informação, pois disponibilizam informações a respeito do comportamento do usuário na rede, registrando acessos indevidos do próprio usuário ou até mesmo ações de crackers tentando acesso às informações.
+III- Nos trabalhos de auditoria das redes são verificadas se as permissões de acesso estão condizentes com o informado nas atribuições do usuário, se ocorreram tentativas de acesso a diretórios dos quais ele não tem acesso ou qualquer tipo de comportamento anormal na rede.
+IV- O follow-up consiste em revisar, dentro de um novo projeto de auditoria, os pontos de controle que apresentaram deficiências em trabalhos anteriores.
+
+-------------------------------------------
+
+É correto afirmar sobre a segurança na comunicação:
+
+I- A estratégia de privilégio mínimo se baseia na restrição das permissões de acesso que os componentes de um sistema, normalmente usuários, possuem.
+II- A estratégia de privilégio mínimo, assim como a de obscuridade, não garante sozinha a segurança na comunicação.
+III- A estratégia de confiança não pode ser irresponsável, sendo assim, quando um funcionário é contratado, o RH tem como obrigação fazer todos os testes possíveis de forma a avaliar a idoneidade da pessoa. Quando ela começa a trabalhar, ela assina uma série de termos que permitirão à empresa processá-la caso violações – como um vazamento de informações – sejam cometidas.
+
+-------------------------------------------
+
+A correta definição para a estratégia de segurança para comunicação de ponto de estrangulamento é:
+
+Quanto menos entradas uma determinada rede possui, mais fácil é o processo de monitorá-las e torná-las seguras.
+
+-------------------------------------------
+
+A criptografia é uma ciência fundamental para a segurança, servindo de base para diversas tecnologias e protocolos. Criada em 1900 a.C., ganhou notoriedade na proteção das informações devido ao seu uso militar, inclusive como vantagem estratégica na confidencialidade das informações. 
+
+Atualmente, utilizada pela segurança em redes, garante muito mais que apenas a confidencialidade, garante também:
+
+I- A integridade das informações que trafegam na rede.
+II- A autenticação do acesso do acesso à rede.
+III- A transmissão segura de dados através da rede (confidencialidade e integridade).
+IV- Armazenamento seguro das informações (confidencialidade e integridade).
+
+-------------------------------------------
+
+A segurança física para redes é quesito básico para segurança da informação. E, com certeza, apesar de não ser a mais importante a ser protegida, deve ser a primeira e ter a atenção dos Administradores de Redes, por se tratar da base de uma eficaz proteção. Dessa forma, é correto afirmar sobre a segurança física de redes:
+
+I- A segurança física tem abrangência extensa que vai desde as instalações físicas, internas e externas em todas as localidades da organização.
+
+-------------------------------------------
+
+As barreiras de proteção são fundamentais e fazem parte de um conjunto de proteção chamado de perímetro de segurança. Sobre os Perímetro de Segurança é correto afirmar que: 
+
+Trata-se da combinação de mecanismos físicos e lógicos de proteção destinados à segurança da informação.
+
+-------------------------------------------
+
+As chamadas barreiras de proteção revelam a necessidade preventiva da segurança física do ambiente, que vai muito além de proteger os equipamentos conectados à rede e se estende ao controle efetivo do acesso às instalações de uma maneira geral. Seguindo essa linha de pensamento, é correto afirmar sobre as barreiras de proteção:
+
+I- Uma barreira de segurança pode ser refletida em obstáculos que são colocados para prevenir um ataque. Exemplo: cerca elétrica e muros altos.
+II- Apenas a proteção física do ambiente não garante a segurança das informações, faz-se então necessária a junção da segurança física e lógica.
+
+-------------------------------------------
+
+Elaborar uma boa estratégia de segurança para redes não é uma tarefa fácil, uma vez que dentro do processo do ciclo de vida da informação é onde ela corre mais risco, dessa maneira a adoção de segurança via obscuridade tem como características:
+
+I- A segurança via obscuridade parte do princípio que um ativo de informação só pode ser atacado se alguém souber da sua existência.
+II- A segurança por obscuridade por si mesma não garante a segurança da informação, ela compõe um conjunto de medidas de proteção. 
+
+-------------------------------------------
+
+Estar atento e compreender o ambiente físico é fundamental para a identificação de possíveis vulnerabilidades físicas e suas ameaças. Dessa forma, é correto afirmar sobre as ameaças e vulnerabilidades físicas à segurança da informação:
+
+II- Sabotagem e vandalismo são exemplos de ameaças à segurança física.
+III- Sequestro e chantagem são exemplos de ameaças à segurança física.
+IV- Ausência ou falhas em planos de contingência são exemplos de vulnerabilidades à segurança física da informação.
+
+-------------------------------------------
+Sobre os certificados digitais é correto afirmar que:
+I- Os certificados digitais com valor legal devem ser emitidos pela ICP – Brasil.
+II- A função principal dos certificados digitais é garantir ou atestar a identidade de determinada entidade, ou pessoa em um determinado processo.
+III- As Autoridades Registradoras ARs têm por objetivo interagir com o usuário e repassar as solicitações de, por exemplo, emissão ou renovação de certificados digitais, para o processamento das ACs, garantindo, assim, a proteção das ACs contra ações externas.
+IV- O relacionamento das ARs entre as ACs está dividido em três formatos: hierárquico, certificação cruzada e híbrido.
+
+As afirmativas I, II, III e IV estão corretas.
+
+-------------------------------------------
+Sobre técnicas empregadas na criptografia atual, é correto dizer que:
+I- A criptografia simétrica pode ser definida como: um algoritmo e uma chave que devem ser compartilhados entre os participantes na comunicação, em que a mesma chave é utilizada tanto para codificar como para decodificar as mensagens.
+II- As funções de hash têm por objetivo macro garantir que a mensagem não seja alterada durante o caminho. Para isso, a mensagem a ser criptografada recebe uma chave simétrica que é utilizada para gerar o MAC (Message Autentication Code).
+III- A criptografia assimétrica tem como característica a utilização de duas chaves matematicamente relacionadas, sendo uma pública e outra privada, cujo objetivo principal de seu desenvolvimento foi de resolver os problemas de troca segura de chaves e escalabilidade, encontrados nas cifras simétricas.
+IV- Quando recebo um arquivo por e-mail e esse arquivo está protegido com uma senha, nesse caso terei que utilizar a mesma chave (senha) que criptografou o arquivo para poder acessá-lo. Isso quer dizer que foi utilizada a criptografia de chaves assimétricas para compor essa proteção no arquivo.
+
+
+Apenas as afirmativas I, II e III estão corretas.
+
+-------------------------------------------
+É muito comum confusão entre as denominações de cracker e de hacker, dessa forma, é correto afirmar sobre o conhecimento e intenções dos crackers em um sistema ou em uma rede de comunicação, que:
+I- Eles podem descobrir brechas dentro de sistemas e as razões para tais brechas. Constantemente buscam mais conhecimento, compartilham livremente o que eles descobriram e nunca, jamais, corrompem dados intencionalmente.
+II- Alguém que domina ou de outro modo viola a integridade de um sistema de máquinas remotas com intenção maliciosa. Tendo adquirido acesso não autorizado, destroem os dados vitais, negam serviço de usuários legítimos ou basicamente causam problemas para seus alvos
+III- Tenta ganhar acesso e nada mais. Acesso sendo definido como entrada simples: entrada que é não autorizada em uma rede que requer, no mínimo, um login e senha.
+IV- Auxilia as organizações descobrindo as vulnerabilidades e indicando estratégias e mecanismos de proteção.
+
+
+Apenas as afirmativas II e III estão corretas.
+
+-------------------------------------------
+Ataques de ransoware estão cada vez mais frequentes e organizados, causando prejuízos às organizações. A respeito de ransoware, é correto afirmar que:
+I- É um tipo de código malicioso que torna inacessíveis os dados armazenados em um equipamento, geralmente usando criptografia, e que exige pagamento de resgate (ransom) para restabelecer o acesso ao usuário.
+II- O ataque mais famoso de ransonware foi o WannaCry, que ocorreu em 2017 e se espalhou por mais de 100 países pelo mundo.
+III- Esse ataque pode afetar a rede inteira se não for contido a tempo.
+IV- Backups (cópias de segurança) são a solução para esse tipo de ataque, porém, não trabalham na prevenção, e sim na resolução caso já tenha ocorrido o ataque.
+
+As afirmativas I, II, III e IV estão corretas.
+
+
+-------------------------------------------
+Carlos Roberto, administrador de rede, recebeu um chamado referente a um incidente de segurança que reportava a seguinte situação: “Prezado Carlos, meu nome é Adalberto e trabalho no Marketing, hoje pela manhã aconteceu algo muito estranho, o Francisco, do Compras, me ligou para passar a senha do arquivo dos dados financeiros da licitação para aquisição das novas bombas injetoras, como a informação é confidencial, ele protegeu o arquivo com senha e tinha que me passar a senha por outro canal, conforme a norma de segurança, achei isso muito estranho pois não solicitei nada a ele, mas ele afirmou com certeza que recebeu a minha solicitação”.
+Através desses indícios, Carlos rastreou e descobriu que alguém tinha capturado o tráfego entre as estações e tinha reenviado com alterações se passando pela estação de trabalho de Adalberto, Carlos percebeu que a rede havia sofrido um ataque de:
+
+
+Modificação.
+
+-------------------------------------------
+Fabrício, administrador de redes, percebeu que tinha sofrido um ataque em sua rede que tinha as seguintes características: atacante redirecionou o tráfego, fazendo-o passar pela sua máquina antes de seguir ao seu destino. Dessa forma, começou a ver todas as informações que eram direcionadas a ela. Fabrício descobriu que havia sofrido um ataque de:
+
+
+Interceptação.
+
+-------------------------------------------
+Os ataques de DoS (Denial of Service) foram desenvolvidos para aborrecer, entretanto, com o passar do tempo e com o avanço tecnológico, essa técnica cracker se tornou uma grande ameaça à segurança das informações quando nos referimos ao pilar de Disponibilidade da Informação. Dessa forma, é correto afirmar sobre sobe o potencial atual desse ataque, que:
+I- Os ataques de DoS são muito avançados e de difícil execução, apenas crackers experientes conseguem desenvolvê-los e executá-los com êxito, isso os torna uma ferramenta pouco utilizada.
+II- O objetivo de um ataque de DoS é simples e direto – arremessar seu host fora da Internet. Exceto quando especialistas de segurança conduzem testes de DoS contra suas próprias redes (ou outro hosts que consentem isso), os ataques de DoS são sempre maliciosos.
+III- Podem temporariamente incapacitar sua rede inteira (ou pelo menos aqueles hosts que estão baseados em TCP/IP).
+
+
+Apenas as afirmativas II e III estão corretas.
+
+-------------------------------------------
+Para concretizar seu ataque, os crackers necessitam de ferramentas que auxiliam na sua ação contra as redes e computadores. Quando o objetivo do cracker é de apenas causar transtorno, é correto afirmar que:
+I- Às ferramentas que os crackers utilizam damos o nome de dispositivos destrutivos.
+II- A maioria dessas ferramentas não apresenta riscos de segurança, mas sim aborrecimentos. Entretanto, esses programas podem ocasionalmente ameaçar a capacidade da sua rede de funcionar adequadamente.
+III- Podemos destacar três ferramentas importantes: bombas de correio eletrônico, a negação de ferramentas de serviço e vírus.
+IV- São geralmente utilizados por usuários imaturos, funcionários descontentes ou crianças, puramente, sem malícia, ou pelo prazer de atormentar os outros.
+
+As afirmativas I, II, III e IV estão corretas.
+
+
+-------------------------------------------
+
+
+Sobre os tipos de softwares maliciosos e correto afirmar que:
+
+I. O vírus requer execução.
+
+II. O worm requer execução.
+
+III. Um vírus pode se propagar para outros computadores.
+
+IV. Spyware programa que monitora as atividades de um sistema.
+
+
+Apenas as afirmativas I, III e IV estão corretas.
+
+
+-------------------------------------------
+Sobre as formas de ataque a redes corporativas, é correto afirmar que:
+I- As ameaças internas são desencadeadas por ataques que interagem diretamente com o ambiente.
+II- Nas ameaças passivas não há interação direta com a máquina atacada, o foco é a coleta de informação sobre o alvo.
+III- As ameaças às redes de dados podem ser tipificadas dependendo dos objetivos que elas possuem em relação ao alvo atacado.
+IV- A segurança de redes não precisa se preocupar com ataques destinados às estações de trabalho a ela conectadas, se a rede está protegida, as estações consequentemente também estão.
+
+
+Apenas as afirmativas I, II e III estão corretas.
+
+-------------------------------------------
+Sobre os ataques por phishing e smishing, é correto afirmar que:
+I- O phishing é um tipo de fraude por meio da qual um golpista tenta obter dados pessoais e financeiros de um usuário pela utilização combinada de meios técnicos e engenharia social, enviados para o e-mail da vítima.
+II- O smishing é um tipo de fraude por meio da qual um golpista tenta obter dados pessoais e financeiros de um usuário pela utilização combinada de meios técnicos e engenharia social, enviados para o dispositivo móvel da vítima.
+III- Tanto o phishing como o smishing requerem ação da possível vítima para ter êxito.
+
+As afirmativas I, II e III estão corretas.
+
+-------------------------------------------
+
+Trata-se de uma unanimidade dizer que quando a informação está trafegando na rede, a atenção à segurança da informação deve ser redobrada, diante desse cenário vulnerável, é necessária a adoção de procedimentos de segurança para proteger as informações e assegurar a comunicação de um ponto a outro. Dessa forma, é correto afirmar que a segurança das informações trafegadas na rede devem assegurar:
+I- A autenticidade do emissor e do receptor e garantir que a pessoa emissora ou receptadora seja realmente quem diz ser no processo de comunicação.
+II- A confidencialidade do conteúdo, ou seja, apenas os destinatários devem ter acesso ao conteúdo da informação.
+III- Não é dever assegurar a capacidade de recuperação do conteúdo pelo receptor, que visa a recuperação do conteúdo em sua forma original caso ocorram problemas na comunicação.
+IV- A irretratabilidade da comunicação é a garantia de que a comunicação da mensagem foi realmente bem-sucedida, evitando, assim, que o emissor ou receptor neguem esse fato.
+
+Apenas as afirmativas I, II e IV estão corretas.
+
+-------------------------------------------
+
+É correto afirmar sobre os firewalls de Níveis de Redes:
+I- São geralmente roteadores com capacidades poderosas de filtragem de pacote.
+II- Também são conhecidos como firewall baseado em roteador, pois trabalham na camada de rede.
+III- Apresentam muitas deficiências, a mais latente é sua vulnerabilidade a ataques de personalização ou spoffing.
+IV- Quanto mais rigorosas forem as regras de filtragem de pacotes, mais lento ele ficará e seu desempenho pode ser abalado.
+
+As afirmativas I, II, III e IV estão corretas.
+
+
+-------------------------------------------
+
+O IDS (Sistema de Detecção de Intrusos) funciona como uma espécie de alarme para quando o administrador de rede tem que permitir, para a troca de informações, deixar portas abertas na rede, o que sempre representa riscos. Sobre as caraterísticas e funcionamento do IDS, é correto afirmar que:
+I- Analisa as assinaturas de ataques conhecidos onde esses sistemas já possuem armazenados os principais ataques realizados por hackers.
+II- Analisa os protocolos, sempre verificando se nos protocolos de aplicação existe algo de errado.
+III- Previne qualquer tentativa de ataque barrando acessos indesejados.
+IV- Detecta anomalias, este método é o mais complexo de detecção de intrusão.
+
+Apenas as afirmativas I, II e IV estão corretas.
+
+
+-------------------------------------------
+O NAT (Network Address Translation) é uma solução que foi desenvolvida para solucionar problemas relacionados ao esgotamento do número de endereços de IP da Internet. Como através dele é possível segmentar ou afunilar o acesso à Internet, logo se tornou grande aliado para a segurança da informação, pois afunila o acesso da rede interna para o ambiente externo. Dessa maneira, é correto afirmar que:
+I- O NAT foi criado para permitir que máquinas possam acessar a internet sem que necessariamente tivessem um endereço de IP válido.
+II- Os endereços de IP distribuídos para rede interna através do NAT são endereços válidos na Internet.
+III- Os endereços de IP distribuídos para rede interna através do NAT são endereços que não são válidos na Internet.
+IV- O maior benefício para a segurança em redes é que as máquinas, a partir da Internet, não conseguem acessar de forma direta máquinas que estão na rede interna.
+
+
+Apenas as afirmativas I, III e IV estão corretas.
+
+
+-------------------------------------------
+
+O perímetro de segurança ou (DMZ) é um conceito extremamente importante para a segurança física e pode, de maneira muito semelhante, ser transposto para a segurança em redes. Quando imaginamos a aplicabilidade dos perímetros de segurança, podemos afirmar que:
+I- Caso uma máquina nessa rede perimetral tenha a sua segurança comprometida, a equipe de segurança tem tempo para detectar o incidente e responder de forma apropriada antes que o ataque atinja os ativos internos.
+II- Para aumentar ainda mais a segurança e garantir a defesa em profundidade, costuma-se combinar a segurança fornecida pelo firewall ou IPS (Intrusion Prevention System) com a chamada segurança em host, transformando essas máquinas, que recebem acesso externo, em bastion hosts.
+III- As máquinas da DMZ por estarem protegidas não necessitam ser monitoradas de perto.
+
+
+Apenas as afirmativas I e II estão corretas.
+
+-------------------------------------------
+O rotador de borda é o último gateway (interconecta redes diferentes) que conecta a rede interna da empresa à Internet. Devido a essas características, apesar de ser importante para a segurança das redes, é pouco utilizado para esse fim:
+I- Devido ao fato de que, muitas vezes, este roteador não pertence à organização, e sim a empresas que proveem a conexão com a Internet.
+II- Devido ao fato de que não faz diferença protegê-lo, uma vez que ele está fora do ambiente da rede interna.
+III- Não permite configuração por parte do Administrador da Rede, uma vez que roteador não pertence à organização e sim a empresas que proveem a conexão com a Internet.
+IV- Devido à dificuldade de configuração, normalmente feita via linha de comando, o que faz com que muitos administradores, por questão de praticidade, abram mão de utilizar este recurso.
+
+
+Apenas as afirmativas I e IV estão corretas.
+
+
+-------------------------------------------
+Os bastion hosts são estações de trabalho adicionadas fora da rede interna, dentro da rede perimetral, que visam focar o aspecto de segurança da máquina que é acessada pela internet. Dessa forma, é correto afirmar sobre as características dessas máquinas denominadas como bastion hosts, que:
+I- Se elas não forem comprometidas e o firewall estiver configurado corretamente para bloquear os acessos através dela não sobram muitas opções para o intruso.
+II- Máquinas costumam ter a sua segurança fortificada em um processo chamado de hardening, o qual envolve tarefas como garantir que a máquina não possua vulnerabilidades.
+III- Elas costumam ser isoladas em segmentos de rede específicos, numa tentativa de dificultar a propagação de ataques que as utilizem como plataformas.
+
+
+ 	
+
+As afirmativas I, II e III estão corretas.
+
+
+-------------------------------------------
+Os componentes de um IPS (Sistema de Prevenção de Intrusos) são:
+
+Agente, coletor de eventos, base de dados, gerenciador central, sistemas de alerta e interface gráfica.
+
+-------------------------------------------
+Os firewalls de 3ª geração, chamados de gateways de aplicação, representaram uma evolução, pois podem restringir acesso a:
+I- FTP a usuários anônimos.
+II- HTTP para portais de entretenimento.
+III- O filtro de pacotes dinâmico (stateful inspection),
+IV- Aos protocolos desconhecidos na porta 443 (HTTPs).
+
+As afirmativas I, II e IV estão corretas.
+
+-------------------------------------------
+
+Para construir um firewall é necessário seguir seis passos lógicos importantes e sequenciais, que são:
+
+ 	
+
+Identifique a topologia. Analise os relacionamentos de confiança. Desenvolva as diretivas. Identifique o firewall correto. Empregue esse firewall e teste suas diretivas.
+
+
+-------------------------------------------
+
+São exemplos de dispositivos para proteção das redes:
+I- Roteador de borda.
+II- Firewall.
+II- IDS / IPS.
+IV- Políticas de segurança.
+
+
+As afirmativas I, II, III e IV estão corretas.
+
+
+
+-------------------------------------------
+A utilização das VPNs pode representar uma alternativa de acesso seguro por uma rede insegura, a Internet, dessa forma, é correto afirmar sobre o funcionamento das VPNs, que:
+I- São redes de circuitos virtuais que transportam tráfego privado, como uma conexão segura baseada em criptografia, com objetivo de transportar informação.
+II- Combinam as tecnologias de criptografia, autenticação e tunelamento.
+III- Interessantes para interligar pontos distantes de uma organização através da Internet.
+IV- Por trafegar por um meio inseguro, não são recomendadas para informações sensíveis e confidenciais.
+
+
+Apenas as afirmativas I, II e III estão corretas.
+
+-------------------------------------------
+As VLANs podem ser configuradas de diversas formas nos switches multicamadas. Quando configuramos uma VLAN por MAC Address, ela terá as seguintes características:
+
+
+Nesse caso, o switch verifica o endereço de origem da máquina conectada a ele e realiza a ligação dessa máquina à sua VLAN correspondente.
+
+-------------------------------------------
+As VPNs com IPSec (IP seguro) são uma tendência para compor ainda mais a segurança das VPNs, dessa forma, é correto afirmar sobre o IPSec:
+I- O IPSec permite a interoperabilidade de implementações de diferentes fabricantes e é uma solução de segurança fim a fim entre roteadores, firewalls, estações de trabalho e servidores.
+II- O IPSec utiliza criptografia simétrica devido à rapidez do mecanismo para encriptar os dados, e criptografia assimétrica para prover mecanismos de troca de chaves criptográficas.
+III- O IPSec é um protocolo de tunelamento desenhado tanto para IPv4 como IPv6, e disponibiliza mecanismos de segurança fim a fim e criptografia.
+IV- Foi constituído para operar tanto em um ambiente de estação do usuário como em gateway (roteador, concentrador etc.), garantindo a proteção para o tráfego IP.
+
+As afirmativas I, II, III e IV estão corretas.
+
+
+-------------------------------------------
+Com a chegada das redes sem fio, os administradores de rede tiveram que se adaptar a um cenário modificado. Antigamente, a preocupação de segurança era limitada em proteger os cabos de rede, os equipamentos de comunicação, mas agora as coisas mudaram. Sobre a mudança radical que as redes sem fio trouxeram, podemos afirmar que:
+I- Quando nos referimos às redes sem fio, devemos nos preocupar com a enorme facilidade do “furto” de informações, pois o intruso pode estar em qualquer local da área de abrangência coberta pelo sinal dos APs (Access Points).
+II- Um protocolo de comunicação desenvolvido com o objetivo de criar redes wireless de alta velocidade não faz nada mais do que transferir dados por ondas de rádio em frequências não licenciadas.
+III- A não obrigatoriedade de qualquer tipo de licença ou autorização do órgão regulador das comunicações para operar foi um dos fatores que levou as empresas a adotarem as redes sem fio em alta escala, além, é claro, da grande vantagem da mobilidade dentro da área de cobertura do sinal.
+IV- No caso de comunicações em redes wireless, os controles de acesso adotados serão os mesmos das redes cabeadas.
+
+
+Apenas as afirmativas I, II e III estão corretas.
+
+
+-------------------------------------------
+O potencial das VLANs (Virtual Lans) é pouco utilizado pelos Administradores de Redes, isso se dá pela falta de conhecimento e da necessidade de um bom projeto de implantação, seguindo essa análise, é correto afirmar sobre as VLANs:
+I- Trata-se de mecanismo básico de segregação de tráfego, disponível na maioria dos switches.
+II- VLAN para Uso Externo destina-se a usuários que fazem acesso a serviços internos através de meios externos.
+III- As VLANs não podem ser implantadas para uso interno, pois podem acarretar conflitos de endereçamento nos switches.
+IV- São extensivamente utilizadas com o propósito de diminuir o impacto do tráfego de broadcast em redes de grande porte.
+
+
+ 	
+
+Apenas as afirmativas I, II e IV estão corretas.
+
+
+
+-------------------------------------------
+
+O protocolo IPSec (IP Security), que foi projetado para garantir funcionalidades de segurança (confidencialidade, integridade e autenticação) ao protocolo IP, trabalha como um protocolo à parte no TPv4 e como parte nativa da especificação do protocolo IPv6. São caraterísticas do IPSec:
+I- A estrutura do IPSec é composta por dois protocolos.
+II- As especificações preveem dois modos de operação.
+III- O transport mode é destinado à comunicação máquina a máquina.
+
+
+As afirmativas I, II e III estão corretas.
+
+-------------------------------------------
+
+Quais os ataques mais comuns à segurança das redes sem fio?
+I- Wardriving ou warchalking.
+II- Typewriter attack.
+III- Rogue access point.
+IV- Interceptação de sinais.
+
+
+Apenas as afirmativas I, III e IV estão corretas.
+
+-------------------------------------------
+São consideradas algumas características da implantação das VPNs:
+I- Maior custo (relativo à linha privada), mais de 50% a mais.
+II- Solução escalável.
+III- Menor chance de falha.
+IV- Facilidade de gerenciamento.
+
+Apenas as afirmativas II, III e IV estão corretas.
+
+-------------------------------------------
+Sobre a implantação das VLANs, é correto afirmar que:
+I- Promove o aumento de performance da rede.
+II- Possui facilidade de gerenciamento.
+III- Desenvolve topologia de rede independente.
+IV- Não faz a menor diferença para os aspectos de segurança da informação.
+
+
+Apenas as afirmativas I, II e III estão corretas.
+
+
+-------------------------------------------
+Uma forma de garantir a segurança do acesso às redes sem fio é a utilização de criptografia, todavia, isso também não é garantia de êxito para a segurança da informação, dessa forma, é correto afirmar sobre os protocolos criptográficos implantados nas redes sem fio, que:
+I- O protocolo WEP, apesar de bastante difundido, é extremamente vulnerável a ataques de força bruta, bem como de dicionário.
+II- O WPA depende do 802.1X, para autenticar os clientes wireless via servidor RADIUS e para a geração das chaves de sessão que são utilizadas para criar as chaves de criptografia dos dados.
+III- O WPA2 (Wi-Fi Protected Access 2), o novo padrão de segurança para redes sem fio, não é compatível com os protocolos anteriores e sua arquitetura é definida pelo padrão IEEE 802.11i.
+IV- Os protocolos WEP, WPA e WPA2 tiveram suas integridades de acesso quebradas, tornando-se vulneráveis a ataques.
+
+ 	
+
+As afirmativas I, II, III e IV estão corretas.
+
+
+-------------------------------------------
+É correto afirmar sobre as criptomoedas:
+I- As criptomoedas não permitem o rastreamento das transações.
+II- As criptomoedas não possibilitam o anonimato nas transações.
+III- As criptomoedas são viabilizadas devido ao seu desenvolvimento em plataformas de Blockchain.
+
+As afirmativas I e III estão corretas.
+
+-------------------------------------------
+É correto afirmar sobre o teste de invasão do “lado da organização”:
+I- Nesse teste, são verificadas as senhas comuns dos aplicativos que foram alteradas ou continuam com padrão.
+II- Se a organização estiver seguindo corretamente as atualizações, correções e procedimentos, provavelmente estará segura.
+III- Mesmo estando seguindo todas as recomendações tecnológicas, procedimentos e correções, as organizações ainda podem ser invadidas.
+
+
+As afirmativas I, II e III estão corretas.
+
+
+-------------------------------------------
+A criação de senhas fracas pelos usuários de rede representa ponto fraco que pode ser testado em um teste de invasão, porém, é o mais difícil de correção. Dessa forma, é correto afirmar sobre as senhas de acesso à rede:
+I- A Engenharia Social pode ser uma ameaça às senhas.
+II- Os ataques de força bruta terão melhor êxito se as senhas não seguirem as normas para uso correto das senhas.
+III- Os ataques DDoS podem explorar as senhas fracas dos usuários.
+IV- Uma vulnerabilidade seria usar a mesma senha para acesso a vários sites.
+
+
+As afirmativas I, II e IV estão corretas.
+
+-------------------------------------------
+Após a conclusão do teste, é necessária a emissão de dois relatórios: o técnico e o executivo. Sobre esses relatórios, é correto afirmar que:
+I- O sumário executivo descreve os objetivos do teste e oferece uma visão geral das descobertas.
+II- Devem estar dispostos no relatório executivo o histórico, postura geral, perfil do risco, descobertas gerais, resumo das recomendações e mapa estratégico.
+III- O relatório técnico oferece detalhes sobre os testes de invasão.
+IV- Devem estar dispostos no relatório técnico o histórico, postura geral, perfil do risco, descobertas gerais, resumo das recomendações e mapa estratégico. 
+
+Apenas as afirmativas I e III estão corretas.
+
+-------------------------------------------
+As soluções baseadas em computação em nuvem podem trazer diversos benefícios para gestão das informações. Sobre os benefícios da computação em nuvem, podemos afirmar que:
+I- Diversidade de acesso às informações.
+II- Redução de custos.
+III- Melhora na disponibilidade das informações.
+IV- Unicidade de Plataforma.
+
+
+ 	
+
+As afirmativas I, II, III e IV estão corretas.
+
+
+
+-------------------------------------------
+
+O Blockchain pode alterar por completo o cotidiano dos administradores de redes, pois viabiliza a troca de informações de forma segura. Sendo assim, são características do Blockchain:
+I- Inovação.
+II- Autonomia.
+III- Robustez.
+IV- Centralização.
+
+
+Apenas as afirmativas I, II e III estão corretas.
+
+
+-------------------------------------------
+
+O conceito de IOT ou Internet das Coisas não é recente, porém, com advento da criação do IPV6, que implantou uma nova metodologia de endereçamento para Internet, multiplicando o número de IPs válidos na grande rede, acelerou o processo do IOT, hoje se tornando comum em nossas vidas. É correto afirmar sobre os dispositivos IOT:
+I. Aumenta significativamente as vulnerabilidades na rede organizacional.
+II. Aumenta a necessidade de que os administradores de redes se aperfeiçoem em segurança nesses dispositivos, desenvolvendo Normas e Padrões para essa nova realidade.
+III. Os Administradores de redes não precisam se preocupar com os dispositivos IOT, pois sua responsabilidade limita-se ao ambiente interno de rede.
+
+
+
+Apenas as afirmativas I e II estão corretas.
+
+
+-------------------------------------------
+
+Qual das fases do processo de teste de invasão é responsável em definir os objetivos para realização do teste?
+
+
+Preparação.
+-------------------------------------------
+Qual das plataformas abaixo representa a utilização de serviços de computação em nuvem para armazenamento e acessos a volumes de dados?
+I- Database as a Service (DaaS): Banco de Dados como Serviço.
+II- Platform as a Service (PaaS): Plataforma como Serviço.
+III- Infrastructure as a Service (IaaS): Infraestrutura como Serviço.
+IV- Testing as a Service (TaaS).
+
+ 	
+
+As afirmativas I, II, III e IV estão corretas.
+
+
+-------------------------------------------
+
+Sobre os testes de invasão, é correto afirmar que:
+I- Os Crackers utilizam sempre de ataques as vulnerabilidades “dia zero”, ou seja, novas.
+II- Os testes de invasão servem para verificar, na prática, se tudo de segurança que foi implantado realmente está funcionando.
+III- Os testes de invasão ocorrem no ambiente interno da Organização.
+
+
+Apenas as afirmativas II e III estão corretas.
+
+
+-------------------------------------------
+É correto afirmar sobre a Política de Segurança da Informação:
+I- A Política de Segurança tem como objetivo principal direcionar um programa efetivo de proteção dos ativos de informação, tais como base de dados, documentos, arquivos e outros.
+II- A Política de Segurança é conjunto de diretrizes da empresa que visam à proteção das informações da empresa e de seus clientes com base nos princípios de segurança da informação (confidencialidade, integridade e disponibilidade).
+III- Política de Segurança deve conter detalhes técnicos de mecanismos a serem utilizados ou procedimentos que devam ser utilizados.
+IV- A Política de Segurança da Informação não tem caráter obrigatório, cada Funcionário cumpre se achar necessário.
+
+Apenas as afirmativas I e II estão corretas.
+
+-------------------------------------------
+É correto afirmar sobre o Direito Digital:
+I- Para a maioria dos magistrados, a Internet é apenas a ferramenta que pode ser utilizada para o bem ou para o mal.
+II- O Brasil, apesar dos esforços, não possui uma lei específica para o Direito Digital.
+III- Por não ter uma lei específica, o Brasil deixa de julgar muitos casos cometidos através da Internet.
+
+Apenas as afirmativas I e II estão corretas.
+
+-------------------------------------------
+A grande maioria dos crimes eletrônicos cometidos por meio da internet ocorrem por:
+
+Falhas humanas.
+-------------------------------------------
+A política deve adotar filosofia explícita que demonstre a sua intenção com relação ao seu cumprimento por parte de todos na empresa. Sobre essas filosofias, é correto afirmar que:
+I- Filosofia Proibitiva – tudo que não é expressamente permitido é proibido.
+II- Filosofia Idealista – deve ser seguida a qualquer custo.
+III- Filosofia Permissiva – tudo que não é proibido é permitido.
+IV- Filosofia Construtivista – aceita sugestões para sempre melhorar.
+
+Apenas as afirmativas I e III estão corretas.
+
+-------------------------------------------
+
+Dentro de um PCN – Plano de Continuidade do Negócio especificamente sobre o BIA – Bussines Impact Analys ou AIN – Análise de Impacto ao Negócio, é correto afirmar que:   
+I- Serve para determinar o tempo máximo de parada de um processo.
+II- O questionário é elaborado para mapear os processos onde o gestor é o responsável em responder.
+III- Tem como principal função definir o PCN.
+IV- É componente chave para a elaboração de um PCN.
+
+
+Apenas as afirmativas I, II e IV estão corretas.
+
+-------------------------------------------
+
+Em 25/04/2014 foi sancionado o Marco Civil da Internet, do qual é correto afirmar que:
+I- Foi uma tentativa de sanar a brecha da não existência de uma lei específica para o Direito Digital.
+II- A maioria dos crimes digitais acontece por falha humana.
+III- Os usuários, às vezes, sem saber, acabam ferindo o Direito das outras pessoas.
+
+
+As afirmativas I, II, III estão corretas.
+
+-------------------------------------------
+
+O time do CIRT (Computer Incident Response Team – Time de Resposta a Incidentes Computacionais) é formado por:
+
+
+É formado por um grupo multidisciplinar de profissionais.
+
+
+-------------------------------------------
+Para implantar e estruturar um time de um CIRT (Computer Incident Response Team – Time de Resposta a Incidentes Computacionais) temos que compreender primeiramente os conceitos de Eventos e de Incidentes de Segurança da Informação. Dessa forma, é correto afirmar que:
+I- Evento é um evento ou uma cadeia de eventos maliciosos sobre um sistema de informação.
+II- Incidente é uma ocorrência observável a respeito de um sistema de informação.
+III- Evento é uma ocorrência observável a respeito de um sistema de informação.
+IV- Incidente é um evento ou uma cadeia de eventos maliciosos sobre um sistema de informação.
+
+
+Apenas as afirmativas III e IV estão corretas.
+
+-------------------------------------------
+Sabemos que o objetivo de um PCN – Plano de Continuidade do Negócio refere-se à estratégia de ação para recuperar os processos-chave da empresa em caso de uma parada (desastre), a fim de que, ao menos, eles continuem em operação em um período de desastre. Sobre um PCN, é correto afirmar que:
+I. Uma forma de preparar um site de recuperação seria o chamado Cold Site: apenas um local físico que pode receber os equipamentos.
+II. Um PCN tem como missão mapear os processos de negócio da empresa, identificando os processos críticos a serem restaurados.
+III. Uma forma de preparar um site de recuperação seria o chamado Hot Site, que tem como principal objetivo manter uma instalação semelhante em outra região para manter o negócio em caso de interrupção.
+
+As afirmativas I, II, III estão corretas.
+
+-------------------------------------------
+Sobre o processo de elaboração da política, é correto afirmar que:
+I- Deve levar em conta os requisitos de negócio.
+II- Deve respeitar os requisitos legais.
+III- Deve acontecer após a análise de riscos.
+IV- Servirá de subsídio para os Controles Internos (Compliance).
+
+
+As afirmativas I, II, III e IV estão corretas.
+
+-------------------------------------------
+
